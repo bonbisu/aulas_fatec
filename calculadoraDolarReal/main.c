@@ -10,6 +10,6 @@ int main(int argc, char *argv[]) {
 	scanf("%f", &dolar);
 	
 	real = dolar*3.97;
-	printf("Valor em real:%f",real);
+	printf("Valor em real:%.2f",real);
 	return 0;
 }
