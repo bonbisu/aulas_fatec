@@ -10,7 +10,7 @@ int main(int argc, char *argv[]) {
 	
 	float gasolina, alcool, parcial;
 	
-	printf("Qual combustível é mais vantajoso?\n\n");
+	printf("Qual combustível é mais vantajoso?\n(obs: utilizar virgula para casas decimais)\n\n");
 	
 	printf("Insira o valor da Gasolina: ");
 	scanf("%f",&gasolina);
