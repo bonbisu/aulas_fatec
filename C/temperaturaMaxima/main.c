@@ -14,60 +14,72 @@
 
 
 int main(int argc, char *argv[]) {
-  float temperaturas[10][3];
-  int op;
-  int x=0;
-  float variation = 0;
-  int day;
+  float temp1,temp2,temperaturas[10][3],variation;
+  int op,x,day;
 
   printf("Resumo das temperaturas ao longo de 10 dias.\n");
 
-  for (int i=0; i<2; i++) {
-      printf("Insira a temperatura minima do dia %d : ", i+1);
-      scanf("%f", &temperaturas[i][0]);
-      printf("Insira a temperatura maxima do dia %d : ", i+1);
-      scanf("%f", &temperaturas[i][1]);
-      float media = (temperaturas[i][0] + temperaturas[i][1])/2;
-      temperaturas[i][2] = media;
+  for (x=0; x<10; x++) {
+      printf("Insira a temperatura minima do dia %d : ", x+1);
+      scanf("%f", &temp1);
+      printf("Insira a temperatura maxima do dia %d : ", x+1);
+      scanf("%f", &temp2);
+      if (temp1 < temp2) {
+        temperaturas[x][0] = temp1;
+        temperaturas[x][1] = temp2;
+      } else {
+        temperaturas[x][0] = temp2;
+        temperaturas[x][1] = temp1;
+      }
+
+      float variation = temperaturas[x][1] - temperaturas[x][0];
+      temperaturas[x][2] = variation;
       system("clear");
 
     }
-    printf("Selecione a operacao desejada:\n \
-    1-Temperatura minima de todos os dias.\n \
-    2-Temperatura máxima de todos os dias\n \
-    3-Maior variação de temperatura de todos os dias.\n \
-    4-Sair do programa.");
-    scanf("%d", &op);
-    switch (op) {
-      case 1:
-        for (x=0; x<2; x++) {
-          printf("Temperaturas minima no dia %d : %.2f", x+1, temperaturas[x][0]);
+    while (op != 4) {
+      printf("Selecione a operacao desejada:\n \
+      1-Temperatura minima de todos os dias.\n \
+      2-Temperatura máxima de todos os dias\n \
+      3-Maior variação de temperatura de todos os dias.\n \
+      4-Sair do programa.\n");
+      scanf("%d", &op);
+
+      switch (op) {
+        case 1:
+        printf("\n");
+        for (x=0; x<10; x++) {
+          printf("Temperaturas minima no dia %d : %.2f\n", x+1, temperaturas[x][0]);
         }
-      break;
+        break;
 
-      case 2:
-      for (x=0; x<2; x++) {
-        printf("Temperaturas maxima no dia %d : %.2f", x+1, temperaturas[x][1]);
-      }
-      break;
-
-      case 3:
-      for (x=0; x<2; x++) {
-        float variationNow = temperaturas[x][0] - temperaturas[x][1];
-
-        if (variationNow > variation) {
-          variation = variationNow;
+        case 2:
+        printf("\n");
+        for (x=0; x<10; x++) {
+          printf("Temperaturas maxima no dia %d : %.2f\n", x+1, temperaturas[x][1]);
         }
-        day = x + 1;
-        return variation, day;
+        break;
+
+        case 3:
+        printf("\n");
+        variation = 0;
+        for (x=0; x<10; x++) {
+          if (temperaturas[x][2] > variation) {
+            variation = temperaturas[x][2];
+            day = x+1;
+          }
+        }
+
+        printf("O dia %d teve a maior variacao de temperatura: %.2f C\n", day, variation);
+        break;
+
+      }
+      if (op != 4){
+        printf ("\n\nPressione [ENTER] para continuar...");
+        getchar ();
+        getchar ();
+        system("clear");
       }
 
-      printf("O dia %d teve a maior variacao de temperatura: %.2f C", x+1, variation);
-      break;
-      
-      case 4:
-        printf("Saindo do programa!");
-      default:
-        printf("Opção invalida!");
     }
   }
