@@ -1,0 +1,8 @@
+Aluno : Luis
+Numero de faltas: 2 | Frequencia : 10.0
+Notas:
+Prova 1 : 4.00 | Prova 2 : 5.00
+Média : 4.50
+Aluno não alcançou a média. Precisou fazer a Prova 3.
+Prova 3 : 9.00
+Aluno aprovado com média 7.00
