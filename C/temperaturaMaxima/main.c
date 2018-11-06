@@ -94,6 +94,7 @@ int main(int argc, char *argv[]) {
         // ou >> fflush(stdin);
         // estas opções 'limpam' o stdin
         getchar ();
+        getchar ();
         system("clear");
       }
 
