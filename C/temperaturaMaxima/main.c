@@ -17,13 +17,17 @@ int main(int argc, char *argv[]) {
   float temp1,temp2,temperaturas[10][3],variation;
   int op,x,day;
 
+  // Titulo do programa
   printf("Resumo das temperaturas ao longo de 10 dias.\n");
 
   for (x=0; x<10; x++) {
+    // capturando as temperaturas maximas e minimas
       printf("Insira a temperatura minima do dia %d : ", x+1);
       scanf("%f", &temp1);
       printf("Insira a temperatura maxima do dia %d : ", x+1);
       scanf("%f", &temp2);
+
+      // correção para caso o usuário insira os valores invertidos
       if (temp1 < temp2) {
         temperaturas[x][0] = temp1;
         temperaturas[x][1] = temp2;
@@ -31,23 +35,29 @@ int main(int argc, char *argv[]) {
         temperaturas[x][0] = temp2;
         temperaturas[x][1] = temp1;
       }
-
+      // calculo da variação da temperatura por dia
       float variation = temperaturas[x][1] - temperaturas[x][0];
       temperaturas[x][2] = variation;
+      // limpar a tela a cada nova temperatura inserida
       system("clear");
 
     }
+
+    // loop "infinito" para consultar todas opções sem
+    // precisar reinserir os valores dos 10 dias
     while (op != 4) {
       printf("Selecione a operacao desejada:\n \
       1-Temperatura minima de todos os dias.\n \
       2-Temperatura máxima de todos os dias\n \
       3-Maior variação de temperatura de todos os dias.\n \
       4-Sair do programa.\n");
+      // capta o input do usuário para cada uma das operações desejadas
       scanf("%d", &op);
-
+      // seleciona a operação inserida
       switch (op) {
         case 1:
         printf("\n");
+        // loop para imprimir cada dia com sua temperatura minima
         for (x=0; x<10; x++) {
           printf("Temperaturas minima no dia %d : %.2f\n", x+1, temperaturas[x][0]);
         }
@@ -55,6 +65,7 @@ int main(int argc, char *argv[]) {
 
         case 2:
         printf("\n");
+        // loop para imprimir cada dia com sua temperatura maxima
         for (x=0; x<10; x++) {
           printf("Temperaturas maxima no dia %d : %.2f\n", x+1, temperaturas[x][1]);
         }
@@ -63,20 +74,25 @@ int main(int argc, char *argv[]) {
         case 3:
         printf("\n");
         variation = 0;
+        // loop para comparar qual a maior variação de temperatura
         for (x=0; x<10; x++) {
           if (temperaturas[x][2] > variation) {
             variation = temperaturas[x][2];
             day = x+1;
           }
         }
-
+        // imprime a maior temperatura
         printf("O dia %d teve a maior variacao de temperatura: %.2f C\n", day, variation);
         break;
 
       }
+      // teste para entrar ou não no loop das opções
       if (op != 4){
         printf ("\n\nPressione [ENTER] para continuar...");
-        getchar ();
+        // usar 2 getchar quando quiser pausar dentro de um loop
+        // ou >> while(getchar()!='\n'); >> getchar ();
+        // ou >> fflush(stdin);
+        // estas opções 'limpam' o stdin
         getchar ();
         system("clear");
       }
