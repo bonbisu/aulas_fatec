@@ -1,0 +1,6 @@
+Nome,Faltas,Frequencia,P1,P2,P3,Media,Status
+Fernando,4.0,20.0,9.0,10.0,0,9.5,Aprovado
+Larissa,10.0,50.0,0,0,0,0,Reprovado por faltas
+Raiza,3.0,15.0,8.0,9.0,0,8.5,Aprovado
+Luis,3.0,15.0,4.0,5.0,9.0,7.0,Aprovado
+Leandro,1.0,5.0,2.0,3.0,5.0,4.0,Reprovado abaixo da media
