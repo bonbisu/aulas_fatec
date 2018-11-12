@@ -2,6 +2,7 @@
 #include <stdlib.h>
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
 // 2 – Armazene em uma matriz 10×5 o resultado de uma prova de alternativas:
 //
 // a – coluna 0
@@ -19,7 +20,7 @@
 int main(int argc, char *argv[]) {
   int x,corretas=0;
   float notaFinal;
-  int resposta;
+  char resposta;
 
   // definir aqui as respostas certas
   int prova[10][5] = {{0,0,1,0,0}, // questão 1
@@ -29,48 +30,46 @@ int main(int argc, char *argv[]) {
                       {0,0,1,0,0}, // questão 5
                       {1,0,0,0,0}, // questão 6
                       {0,1,0,0,0}, // questão 7
-                      {0,1,0,0,0}, // questão 8
+                      {0,0,0,0,1}, // questão 8
                       {0,0,0,1,0}, // questão 9
-                      {1,0,0,0,0}}; // questão 10
+                      {0,0,0,0,1}}; // questão 10
 
   printf("Gabarito da prova.\n");
   for (x=0; x<10; x++) {
     printf("Insira a resposta da questao [%d]: ", x+1);
-    scanf("%d", &resposta);
+    scanf(" %c", &resposta);
 
     switch (resposta) {
-      case 1:
+      case 'a':
         if (prova[x][0] == 1) {
           corretas++;
         }
         break;
 
-      case 2:
+      case 'b':
         if (prova[x][1] == 1) {
           corretas++;
         }
         break;
 
-      case 3:
+      case 'c':
         if (prova[x][2] == 1) {
           corretas++;
         }
         break;
 
-      case 4:
+      case 'd':
         if (prova[x][3] == 1) {
           corretas++;
         }
         break;
 
-      case 5:
+      case 'e':
         if (prova[x][4] == 1) {
           corretas++;
         }
         break;
     }
   }
-  printf("%d\n", corretas );
-
-
+  printf("\nRespostas corretas : %d ", corretas );
 }
