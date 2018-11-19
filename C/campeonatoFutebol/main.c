@@ -12,9 +12,10 @@
 
 int main(int argc, char const *argv[])
 {
-  int tabCampeonato[3][4],x,i,j,aux0,aux1,aux2,aux3;
-  char times[3][15],auxTime[15];
+  // inserido uma o quinto elemento do registro para identificar os times
+  int tabCampeonato[3][5],x,i,j,aux0,aux1,aux2,aux3,aux4;
 
+  // zerar o array
   for (i=0;i<3;i++)
   {
     for (j=0;j<4;j++)
@@ -23,62 +24,55 @@ int main(int argc, char const *argv[])
     }
   }
 
-  for (i=0;i<3;i++)
-  {
-    for (j=0;j<15;j++)
-    {
-      times[i][j] = 0;
-    }
-  }
-
-
   for (x=0;x<3;x++)
   {
-    printf("Insira o nome do time: ");
-    scanf("%s",times[x]);
-    printf("Insira a quantidade de vitórias do %s : ", times[x]);
-    scanf("%d", &tabCampeonato[x][0]);
-    printf("Insira a quantidade de empates do %s : ", times[x]);
+    // Implementação futura, não está organizando o array de nomes
+    // printf("Insira o nome do time: ");
+    // scanf("%s",times[x]);
+    tabCampeonato[x][0] = x+1;
+    printf("Insira a quantidade de vitórias do time [%d] : ", tabCampeonato[x][0]);
     scanf("%d", &tabCampeonato[x][1]);
-    printf("Insira a quantidade de derrotas do %s : ", times[x]);
+    printf("Insira a quantidade de empates do time [%d] : ", tabCampeonato[x][0]);
     scanf("%d", &tabCampeonato[x][2]);
-    tabCampeonato[x][3] = (tabCampeonato[x][0] * 3) + tabCampeonato[x][1];
+    printf("Insira a quantidade de derrotas do time [%d] : ", tabCampeonato[x][0]);
+    scanf("%d", &tabCampeonato[x][3]);
+    // logica da pontuação
+    tabCampeonato[x][4] = (tabCampeonato[x][1] * 3) + tabCampeonato[x][2];
   }
-  // system("clear");
-  // for (x=0;x<3;x++)
-  // {
-  //   printf("\n%s obteve:\nPontos: %d, Vitoria: %d, Empates: %d, Derrotas: %d", times[x],tabCampeonato[x][3],tabCampeonato[x][0],tabCampeonato[x][1],tabCampeonato[x][2] );
-  // }
+
   // reorganiza em ordem decrescente
   for(i=0;i<3;i++){
         for(j=i+1;j<3;j++){
-            if(tabCampeonato[i][3] < tabCampeonato[j][3])
+            if(tabCampeonato[i][4] < tabCampeonato[j][4])
             {
+              // coleta o maior (j)
               aux0 = tabCampeonato[j][0];
               aux1 = tabCampeonato[j][1];
               aux2 = tabCampeonato[j][2];
               aux3 = tabCampeonato[j][3];
-              scanf(auxTime, times[j]);
+              aux4 = tabCampeonato[j][4];
 
+              // troca o valor maior pelo menor
               tabCampeonato[j][0] = tabCampeonato[i][0];
               tabCampeonato[j][1] = tabCampeonato[i][1];
               tabCampeonato[j][2] = tabCampeonato[i][2];
               tabCampeonato[j][3] = tabCampeonato[i][3];
-              scanf(times[j], times[i]);
-              // times[j] = times[i];
+              tabCampeonato[j][4] = tabCampeonato[i][4];
 
+              // troca o valor maior pelo coletado (j)
               tabCampeonato[i][0] = aux0;
               tabCampeonato[i][1] = aux1;
               tabCampeonato[i][2] = aux2;
               tabCampeonato[i][3] = aux3;
-              scanf(times[i], auxTime);
+              tabCampeonato[i][4] = aux4;
+
             }
         }
     }
 
     for (x=0;x<3;x++)
     {
-      printf("\n%d colocado: %s, Pontos: %d, Vitoria: %d, Empates: %d, Derrotas: %d", x+1, times[x],tabCampeonato[x][3],tabCampeonato[x][0],tabCampeonato[x][1],tabCampeonato[x][2]);
+      printf("\n%d colocado: %d, Pontos: %d, Vitoria: %d, Empates: %d, Derrotas: %d", x+1, tabCampeonato[x][0],tabCampeonato[x][4],tabCampeonato[x][1],tabCampeonato[x][2],tabCampeonato[x][3]);
     }
 
   return 0;
