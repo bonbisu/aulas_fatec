@@ -13,18 +13,18 @@
 int main(int argc, char const *argv[])
 {
   // inserido uma o quinto elemento do registro para identificar os times
-  int tabCampeonato[3][5],x,i,j,aux0,aux1,aux2,aux3,aux4;
+  int tabCampeonato[10][5],x,i,j,aux0,aux1,aux2,aux3,aux4;
 
   // zerar o array
-  for (i=0;i<3;i++)
+  for (i=0;i<10;i++)
   {
-    for (j=0;j<4;j++)
+    for (j=0;j<5;j++)
     {
       tabCampeonato[i][j] = 0;
     }
   }
 
-  for (x=0;x<3;x++)
+  for (x=0;x<10;x++)
   {
     // Implementação futura, não está organizando o array de nomes
     // printf("Insira o nome do time: ");
@@ -38,11 +38,12 @@ int main(int argc, char const *argv[])
     scanf("%d", &tabCampeonato[x][3]);
     // logica da pontuação
     tabCampeonato[x][4] = (tabCampeonato[x][1] * 3) + tabCampeonato[x][2];
+    system("cls");
   }
 
   // reorganiza em ordem decrescente
-  for(i=0;i<3;i++){
-        for(j=i+1;j<3;j++){
+  for(i=0;i<10;i++){
+        for(j=i+1;j<10;j++){
             if(tabCampeonato[i][4] < tabCampeonato[j][4])
             {
               // coleta o maior (j)
