@@ -28,5 +28,12 @@ data = data + "-" + input("Insira a ano da medição: ")
 min = float(input('Insira a temperatura minima : '))
 max = float(input('Insira a temperatura maxima : '))
 
+# verificar se valores foram inseridos corretamente
+if min > max:
+    t = min
+    min = max
+    max = t
+# gravar no csv
 temp.writerow([data, min, max])
+# fechar arquivo
 csvFile.close()
