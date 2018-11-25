@@ -60,13 +60,16 @@ def amplGraf():
         plt.plot(datas, amplitude)
         plt.ylabel('Amplitude')
         plt.xlabel('dias')
+        plt.xticks(datas,rotation=15)
         plt.title('Amplitude térmica')
         plt.show()
 
 def maxMinGraf():
-        plt.plot(datas, maiores, menores)
+        plt.plot(datas, menores, maiores)
         plt.ylabel('Maxima e Minima')
         plt.xlabel('dias')
+        plt.xticks(datas,rotation=15)
+        plt.legend(['Minimas', 'Maximas'], loc=1)
         plt.title('Temperaturas')
         plt.show()
 
