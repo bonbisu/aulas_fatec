@@ -57,26 +57,27 @@ for row in tempDia:
         medias[6] = medias[6] + 1
 
 def amplGraf():
+        plt.figure(figsize=(20,10))
         plt.plot(datas, amplitude)
         plt.ylabel('Amplitude')
         plt.xlabel('dias')
-        plt.xticks(datas,rotation=15)
+        plt.xticks(datas,rotation=28)
         plt.title('Amplitude térmica')
         plt.show()
 
 def maxMinGraf():
+        plt.figure(figsize=(20,10))
         plt.plot(datas, menores, maiores)
         plt.ylabel('Maxima e Minima')
         plt.xlabel('dias')
-        plt.xticks(datas,rotation=15)
+        plt.xticks(datas,rotation=28)
         plt.legend(['Minimas', 'Maximas'], loc=1)
         plt.title('Temperaturas')
         plt.show()
 
 def mediaGraf():
-        fig1, ax1 = plt.subplots()
-        ax1.pie(medias, autopct='%1.1f%%',
-        shadow=True, startangle=90)
+        fig1, ax1 = plt.subplots(figsize=(20,10))
+        ax1.pie(medias, autopct='%1.1f%%', startangle=90)
         # Equal aspect ratio ensures that pie is drawn as a circle
         plt.legend()
         plt.title('Media Temperaturas Diarias')
