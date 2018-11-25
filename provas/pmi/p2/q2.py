@@ -24,6 +24,8 @@ temp = csv.writer(csvFile)
 dia = 0
 mes = 0
 ano = 0
+
+# verificando a validade da data
 while (dia > 31) or (dia < 1):
     dia = int(input("Insira a dia da medição: "))
     if (dia > 31) or (dia < 1):
