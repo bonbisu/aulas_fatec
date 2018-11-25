@@ -24,23 +24,24 @@ csvFile = open('temperaturas.csv', 'r')
 # cria um objeto reader atribuido a uma variavel
 tempDia = csv.reader(csvFile)
 
-amplitude = []
-datas = []
-maiores = []
-menores = []
-medias = [0,0,0,0,0,0,0] # contador por categoria
+amplitude = [] # array com as amplitudes termicas
+datas = [] # array com as datas das medições
+maiores = [] # array com as maiores temperaturas
+menores = [] # array com as menores temperaturas
+medias = [0,0,0,0,0,0,0] # contador por faixa
 catMedias = [   '0 a 15,99', '16 a 19,99',
                 '20,00 a 25,99', '26 a 29,99',
-                '30 a 35,99', '36 a 40,99', 'Acima de 41']
+                '30 a 35,99', '36 a 40,99', 'Acima de 41'] # labels por faixa
 
 for row in tempDia:
+    # atribuindo os valores para cada array
     maiores.append(float(row[2]) )
     menores.append(float(row[1]) )
     amplitude.append(float(row[2]) - float(row[1]))
     datas.append(row[0])
-
     media = (float(row[1]) + float(row[2]) ) / 2
 
+    # categorizando os valores médios diarios como contadores
     if media < 16:
         medias[0] = medias[0] + 1
     elif media >= 16 and media < 20:
@@ -56,12 +57,14 @@ for row in tempDia:
     else :
         medias[6] = medias[6] + 1
 
+# funções para gerar cada grafico
+
 def amplGraf():
-        plt.figure(figsize=(20,10))
+        plt.figure(figsize=(20,10)) # mudar o tamanho do grafico
         plt.plot(datas, amplitude)
         plt.ylabel('Amplitude')
         plt.xlabel('dias')
-        plt.xticks(datas,rotation=28)
+        plt.xticks(datas,rotation=28) # girar os ticks para facilitar a leitura
         plt.title('Amplitude térmica')
         plt.show()
 
@@ -71,26 +74,25 @@ def maxMinGraf():
         plt.ylabel('Maxima e Minima')
         plt.xlabel('dias')
         plt.xticks(datas,rotation=28)
-        plt.legend(['Minimas', 'Maximas'], loc=1)
+        plt.legend(['Minimas', 'Maximas'], loc=4) # plota a legenda do grafico no canto inferior direito
         plt.title('Temperaturas')
         plt.show()
 
 def mediaGraf():
         fig1, ax1 = plt.subplots(figsize=(20,10))
         ax1.pie(medias, autopct='%1.1f%%', startangle=90)
-        # Equal aspect ratio ensures that pie is drawn as a circle
         plt.legend()
         plt.title('Media Temperaturas Diarias')
-        ax1.legend(loc=3, labels= catMedias)
-        ax1.axis('equal')
-        plt.tight_layout()
+        ax1.legend(loc=4, labels= catMedias)
         plt.show()
 
+# Loop para perguntar o grafico a ser exibido
 while True:
-    c=int(input("Escolha um grafico: \n 1- Grafico de linhas da amplitude termica dia a dia \
+    c=int(input('Escolha um grafico: \n 1- Grafico de linhas da amplitude termica dia a dia \
     \n 2- Grafico de linhas com maiores e menores temperaturas dia a dia \
     \n 3- Grafico de pizza com a média das temperaturas. \
-    \n 4- Sair\n"))
+    \n 4- Sair\n'))
+    # semelhante a um 'switch-case' usando 'elifs'
     if c==1:
         amplGraf()
     if c==2:
@@ -100,5 +102,4 @@ while True:
     if c==4:
         quit()
     else:
-        print ("opção inexistente")
-        os.system("cls")
+        print ('opção inexistente')
