@@ -10,13 +10,6 @@ Armazene estes valore em arquivo CSV, cada valor vai ocupar uma coluna e o arqui
 import csv # para manipular arquivos csv
 import os
 
-'''
-Atualização do script para capturar a data atual da inserção dos dados
-from datetime import datetime # para extrair a data atual
-now = (datetime.now() ) # data e hora atual
-now = str(now.day) + '-' + str(now.month) + '-' + str(now.year) # fomatado para o csv
-'''
-
 # abrir o arquivo
 csvFile = open('temperaturas.csv', 'a')
 # cria um objeto writer atribuido a uma variavel
