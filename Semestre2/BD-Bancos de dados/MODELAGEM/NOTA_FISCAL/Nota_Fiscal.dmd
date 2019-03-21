@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Nota_Fiscal" id="9684B820-4012-BB4A-BA43-834E01A64B60" version="3.5">
+<createdBy>aluno</createdBy>
+<createdTime>2019-02-28 00:43:25 UTC</createdTime>
+<ownerDesignName>Nota_Fiscal</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>9684B820-4012-BB4A-BA43-834E01A64B60</designId>
+</OSDM_Design>

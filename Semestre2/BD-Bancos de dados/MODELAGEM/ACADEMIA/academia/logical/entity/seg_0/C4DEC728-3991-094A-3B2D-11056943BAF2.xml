@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C4DEC728-3991-094A-3B2D-11056943BAF2" name="T_SCA_EXAME_MEDICO">
+<createdBy>bomber</createdBy>
+<createdTime>2019-03-09 16:59:40 UTC</createdTime>
+<ownerDesignName>ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_exame_medico" id="3F4D5B20-4675-1B93-A63C-170C9A87EF64">
+<createdBy>bomber</createdBy>
+<createdTime>2019-03-09 17:00:18 UTC</createdTime>
+<ownerDesignName>ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_pressao" id="7BD05AEE-AA1A-0191-32A8-7A3738FF2231">
+<createdBy>bomber</createdBy>
+<createdTime>2019-03-09 17:02:58 UTC</createdTime>
+<ownerDesignName>ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_batimento_cardiaco" id="C4BCBBF0-25CB-ABCD-0609-A13A181C6334">
+<createdBy>bomber</createdBy>
+<createdTime>2019-03-09 17:03:08 UTC</createdTime>
+<ownerDesignName>ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_peso" id="001E4F85-4E7A-0F16-162C-AB377434FC54">
+<createdBy>bomber</createdBy>
+<createdTime>2019-03-09 17:03:25 UTC</createdTime>
+<ownerDesignName>ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_altura" id="6EF764BC-B1AB-C6E9-45AC-87B337793C63">
+<createdBy>bomber</createdBy>
+<createdTime>2019-03-09 17:04:03 UTC</createdTime>
+<ownerDesignName>ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ob_exame_medico" id="4CDD4D00-BCB1-F95F-CB74-686D1C2CC411">
+<createdBy>bomber</createdBy>
+<createdTime>2019-03-09 17:04:12 UTC</createdTime>
+<ownerDesignName>ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="01576BAB-B76C-E44C-5A25-B86FD0B51A37" name="T_SCA_EXAME_MEDICO PK">
+<createdBy>bomber</createdBy>
+<createdTime>2019-03-09 17:00:40 UTC</createdTime>
+<ownerDesignName>ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3F4D5B20-4675-1B93-A63C-170C9A87EF64</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

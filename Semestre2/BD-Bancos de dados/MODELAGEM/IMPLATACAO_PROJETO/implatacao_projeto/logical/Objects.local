@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="A7210570-DAD6-E314-63C9-DA03F2ECD911" name="T_SIP_DEPENDENTE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="4F8107C9-9809-62D0-FC05-A4925E20ED11" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="E714005C-1349-D9AE-1C63-5A8D510D366F" name="T_SIP_DEPTO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="4F8107C9-9809-62D0-FC05-A4925E20ED11" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="28A95281-0CAC-8EE3-B14A-EA56FB26A566" name="T_SIP_FUNCIONARIO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="4F8107C9-9809-62D0-FC05-A4925E20ED11" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="765A4205-A07D-DFD2-6535-9053DAA71786" name="T_SIP_IMPLANTACAO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="4F8107C9-9809-62D0-FC05-A4925E20ED11" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="D64217A9-5300-06A2-43DA-9C2CF8A355BE" name="T_SIP_PROJETO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="4F8107C9-9809-62D0-FC05-A4925E20ED11" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

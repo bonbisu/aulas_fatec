@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E714005C-1349-D9AE-1C63-5A8D510D366F" name="T_SIP_DEPTO">
+<createdBy>aluno</createdBy>
+<createdTime>2019-02-28 00:27:48 UTC</createdTime>
+<ownerDesignName>implatacao_projeto</ownerDesignName>
+<engineerTo>
+<item key="79B5DF73-2AE1-5B25-401A-7A85BC57ADF6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_departamento" id="5AFD87A7-2684-F451-7369-257CBC9F3134">
+<createdBy>aluno</createdBy>
+<createdTime>2019-02-28 00:28:05 UTC</createdTime>
+<ownerDesignName>implatacao_projeto</ownerDesignName>
+<engineerTo>
+<item key="79B5DF73-2AE1-5B25-401A-7A85BC57ADF6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_departamento" id="89700DA0-95FC-8791-E309-B80E67308E7C">
+<createdBy>aluno</createdBy>
+<createdTime>2019-02-28 00:28:15 UTC</createdTime>
+<ownerDesignName>implatacao_projeto</ownerDesignName>
+<engineerTo>
+<item key="79B5DF73-2AE1-5B25-401A-7A85BC57ADF6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="22FB6023-B34C-C772-1031-08EA3BE24C5D" name="T_SIP_DEPTO PK">
+<createdBy>aluno</createdBy>
+<createdTime>2019-02-28 00:28:14 UTC</createdTime>
+<ownerDesignName>implatacao_projeto</ownerDesignName>
+<engineerTo>
+<item key="79B5DF73-2AE1-5B25-401A-7A85BC57ADF6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5AFD87A7-2684-F451-7369-257CBC9F3134</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

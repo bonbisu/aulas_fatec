@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="581A2A06-54F1-5E20-D907-FCBCD9208504" mainViewID="B48B6E50-8D0F-A88F-AB7A-0A3F0799D6A5">
+<createdBy>aluno</createdBy>
+<createdTime>2019-02-28 00:43:25 UTC</createdTime>
+<ownerDesignName>Nota_Fiscal</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

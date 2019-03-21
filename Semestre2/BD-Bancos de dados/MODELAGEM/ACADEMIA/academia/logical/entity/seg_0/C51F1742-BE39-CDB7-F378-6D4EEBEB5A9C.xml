@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C51F1742-BE39-CDB7-F378-6D4EEBEB5A9C" name="T_SCA_INSTITUICAO">
+<createdBy>bomber</createdBy>
+<createdTime>2019-03-09 17:05:31 UTC</createdTime>
+<ownerDesignName>ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_instituicao" id="AE60C362-D03E-45EA-9120-9C48D6AE23C8">
+<createdBy>bomber</createdBy>
+<createdTime>2019-03-09 17:05:50 UTC</createdTime>
+<ownerDesignName>ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_razao_social" id="AA0BB61C-C916-5AC7-A66B-C391FC2FE30C">
+<createdBy>bomber</createdBy>
+<createdTime>2019-03-09 17:06:11 UTC</createdTime>
+<ownerDesignName>ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cnpj" id="045ABF93-5FC3-8D6C-2220-EB5DB0CC7B46">
+<createdBy>bomber</createdBy>
+<createdTime>2019-03-09 17:06:23 UTC</createdTime>
+<ownerDesignName>ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_endereco" id="7682ADCD-4EBC-8002-4235-53F46167412C">
+<createdBy>bomber</createdBy>
+<createdTime>2019-03-09 17:06:32 UTC</createdTime>
+<ownerDesignName>ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefone" id="291DE7DB-F2FE-CD03-6955-D435E69FED48">
+<createdBy>bomber</createdBy>
+<createdTime>2019-03-09 17:06:43 UTC</createdTime>
+<ownerDesignName>ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_email" id="80939C7E-F1F2-EFCE-8F44-720B14AF1365">
+<createdBy>bomber</createdBy>
+<createdTime>2019-03-09 17:06:52 UTC</createdTime>
+<ownerDesignName>ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_contato" id="997F09BA-D95B-A0D2-CB2A-20E53AD96194">
+<createdBy>bomber</createdBy>
+<createdTime>2019-03-09 17:06:59 UTC</createdTime>
+<ownerDesignName>ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_desconto" id="364FFCCE-D9BD-B013-14E9-BED5676C6BDE">
+<createdBy>bomber</createdBy>
+<createdTime>2019-03-09 17:07:08 UTC</createdTime>
+<ownerDesignName>ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="76544BA0-F92B-F03D-E43D-FDB6F1826D7A" name="T_SCA_INSTITUICAO PK">
+<createdBy>bomber</createdBy>
+<createdTime>2019-03-09 17:06:07 UTC</createdTime>
+<ownerDesignName>ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AE60C362-D03E-45EA-9120-9C48D6AE23C8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

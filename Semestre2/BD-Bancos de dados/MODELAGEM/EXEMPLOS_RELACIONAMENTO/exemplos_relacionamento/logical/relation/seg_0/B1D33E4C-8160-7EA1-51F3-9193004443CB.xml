@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="MATRICULAR" directorySegmentName="seg_0" id="B1D33E4C-8160-7EA1-51F3-9193004443CB">
+<createdBy>root</createdBy>
+<createdTime>2019-03-14 00:29:14 UTC</createdTime>
+<comment>Relação lógica, é necessário criar uma entidade associativa para intermediar relações N:N</comment>
+<ownerDesignName>exemplos_relacionamento</ownerDesignName>
+<engineerTo>
+<item key="A4FB3CC8-8744-A6FD-4DB0-764A5CCFA52C" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>59D18108-601D-610E-FD09-C168AEA3F674</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F346E38F-D9D5-F575-E187-B362C484C2B3</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B23E8245-544A-47D2-0C44-E6E8BB34A2A5" name="T_SCA_PROFESSOR">
+<createdBy>bomber</createdBy>
+<createdTime>2019-03-09 17:08:42 UTC</createdTime>
+<ownerDesignName>ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_matricula" id="FE1521D7-9777-1450-45A8-DA0902F7A703">
+<createdBy>bomber</createdBy>
+<createdTime>2019-03-09 17:08:56 UTC</createdTime>
+<ownerDesignName>ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_professor" id="F71C9CA2-CC6F-61E2-C162-048DBD9AEB9E">
+<createdBy>bomber</createdBy>
+<createdTime>2019-03-09 17:09:06 UTC</createdTime>
+<ownerDesignName>ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_apelido" id="6397480E-ECBF-6719-C690-1D040A8854D7">
+<createdBy>bomber</createdBy>
+<createdTime>2019-03-09 17:09:16 UTC</createdTime>
+<ownerDesignName>ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds-genero" id="8F55B62B-4FB6-295C-E4EB-2D75CB356E14">
+<createdBy>bomber</createdBy>
+<createdTime>2019-03-09 17:09:24 UTC</createdTime>
+<ownerDesignName>ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="CD7831B5-F794-171C-0F49-B9A9AE970933">
+<createdBy>bomber</createdBy>
+<createdTime>2019-03-09 17:09:32 UTC</createdTime>
+<ownerDesignName>ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cpf" id="F3CBD456-D60C-51EC-D6CA-E488F21839C7">
+<createdBy>bomber</createdBy>
+<createdTime>2019-03-09 17:09:41 UTC</createdTime>
+<ownerDesignName>ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_rg" id="E0CEBE2C-990C-7109-C5A8-CBE695808F53">
+<createdBy>bomber</createdBy>
+<createdTime>2019-03-09 17:09:51 UTC</createdTime>
+<ownerDesignName>ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_endereco" id="25004D55-682C-29DC-55D8-FD5BBCACDE91">
+<createdBy>bomber</createdBy>
+<createdTime>2019-03-09 17:09:57 UTC</createdTime>
+<ownerDesignName>ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefone" id="8571B057-C7D4-ED92-1C6D-473DC17ECB3C">
+<createdBy>bomber</createdBy>
+<createdTime>2019-03-09 17:10:05 UTC</createdTime>
+<ownerDesignName>ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C8C82ADC-0A8E-A38E-A446-58DAE30D31CF" name="T_SCA_PROFESSOR PK">
+<createdBy>bomber</createdBy>
+<createdTime>2019-03-09 17:09:03 UTC</createdTime>
+<ownerDesignName>ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FE1521D7-9777-1450-45A8-DA0902F7A703</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

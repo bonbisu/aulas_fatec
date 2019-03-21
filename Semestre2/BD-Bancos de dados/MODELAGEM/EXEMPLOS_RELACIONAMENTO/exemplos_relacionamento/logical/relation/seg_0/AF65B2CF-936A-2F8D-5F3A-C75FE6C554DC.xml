@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RESERVA_MATRICULA" directorySegmentName="seg_0" id="AF65B2CF-936A-2F8D-5F3A-C75FE6C554DC">
+<createdBy>root</createdBy>
+<createdTime>2019-03-14 00:34:30 UTC</createdTime>
+<ownerDesignName>exemplos_relacionamento</ownerDesignName>
+<engineerTo>
+<item key="A4FB3CC8-8744-A6FD-4DB0-764A5CCFA52C" value="true"/>
+</engineerTo>
+<sourcePk>D375A7D2-AA04-FB85-4C61-9AA7FFB52CD6</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>59D18108-601D-610E-FD09-C168AEA3F674</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A9E14C8D-B5CD-5203-57EC-7EFB78AC0E0F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

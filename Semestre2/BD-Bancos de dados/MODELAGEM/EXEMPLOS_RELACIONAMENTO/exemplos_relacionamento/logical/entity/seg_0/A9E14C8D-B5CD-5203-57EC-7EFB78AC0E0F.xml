@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A9E14C8D-B5CD-5203-57EC-7EFB78AC0E0F" name="T_MATRICULA">
+<createdBy>root</createdBy>
+<createdTime>2019-03-14 00:30:17 UTC</createdTime>
+<ownerDesignName>exemplos_relacionamento</ownerDesignName>
+<engineerTo>
+<item key="A4FB3CC8-8744-A6FD-4DB0-764A5CCFA52C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="sq_matricula" id="7B2C8529-F26B-CB45-C0A0-37B5D395831D">
+<createdBy>root</createdBy>
+<createdTime>2019-03-14 00:30:29 UTC</createdTime>
+<ownerDesignName>exemplos_relacionamento</ownerDesignName>
+<engineerTo>
+<item key="A4FB3CC8-8744-A6FD-4DB0-764A5CCFA52C" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_matricula" id="5569347A-465C-8926-112D-48E8405FDC12">
+<createdBy>root</createdBy>
+<createdTime>2019-03-14 00:30:36 UTC</createdTime>
+<ownerDesignName>exemplos_relacionamento</ownerDesignName>
+<engineerTo>
+<item key="A4FB3CC8-8744-A6FD-4DB0-764A5CCFA52C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_status" id="4BCB9ED3-CC76-A45C-6EFE-0855F7AD793C">
+<createdBy>root</createdBy>
+<createdTime>2019-03-14 00:30:48 UTC</createdTime>
+<ownerDesignName>exemplos_relacionamento</ownerDesignName>
+<engineerTo>
+<item key="A4FB3CC8-8744-A6FD-4DB0-764A5CCFA52C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_estudante" id="B04433E3-40F6-B7D8-61D9-3067477D8F88">
+<createdBy>root</createdBy>
+<createdTime>2019-03-14 00:34:30 UTC</createdTime>
+<generatorID>AF65B2CF-936A-2F8D-5F3A-C75FE6C554DC</generatorID>
+<ownerDesignName>exemplos_relacionamento</ownerDesignName>
+<engineerTo>
+<item key="A4FB3CC8-8744-A6FD-4DB0-764A5CCFA52C" value="true"/>
+</engineerTo>
+<referedAttribute>F39E02B3-246D-CE8B-C3B2-84D77C924619</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_disciplina" id="A6A2DB23-2205-3DE6-303A-FB669685C7E3">
+<createdBy>root</createdBy>
+<createdTime>2019-03-14 00:35:08 UTC</createdTime>
+<generatorID>1C20DAD1-E79C-7281-F2E9-71A3FF0BCAE6</generatorID>
+<ownerDesignName>exemplos_relacionamento</ownerDesignName>
+<engineerTo>
+<item key="A4FB3CC8-8744-A6FD-4DB0-764A5CCFA52C" value="true"/>
+</engineerTo>
+<referedAttribute>F1D17350-E518-5F1D-0F58-0A233FDFF346</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="45355781-F773-5E28-21F1-E0B67130B712" name="T_MATRICULA PK">
+<createdBy>root</createdBy>
+<createdTime>2019-03-14 00:30:34 UTC</createdTime>
+<ownerDesignName>exemplos_relacionamento</ownerDesignName>
+<engineerTo>
+<item key="A4FB3CC8-8744-A6FD-4DB0-764A5CCFA52C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7B2C8529-F26B-CB45-C0A0-37B5D395831D</attributeRef>
+<attributeRef>B04433E3-40F6-B7D8-61D9-3067477D8F88</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

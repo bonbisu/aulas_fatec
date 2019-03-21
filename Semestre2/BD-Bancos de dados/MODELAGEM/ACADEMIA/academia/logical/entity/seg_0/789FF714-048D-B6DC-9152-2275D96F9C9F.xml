@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="789FF714-048D-B6DC-9152-2275D96F9C9F" name="T_SCA_ALUNO">
+<createdBy>bomber</createdBy>
+<createdTime>2019-03-09 16:55:05 UTC</createdTime>
+<ownerDesignName>ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_matricula" id="E59E5149-4E46-B788-3226-193626D4AC7D">
+<createdBy>bomber</createdBy>
+<createdTime>2019-03-09 16:55:32 UTC</createdTime>
+<ownerDesignName>ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_aluno" id="764B8AFC-0973-FDFF-FDF3-B9099F45564C">
+<createdBy>bomber</createdBy>
+<createdTime>2019-03-09 16:56:49 UTC</createdTime>
+<ownerDesignName>ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="32AC13FF-E125-7BC1-9674-DEF97B9E8ACA">
+<createdBy>bomber</createdBy>
+<createdTime>2019-03-09 16:57:04 UTC</createdTime>
+<ownerDesignName>ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_endereco" id="61DC57D6-874A-7EA2-5120-64FA17937228">
+<createdBy>bomber</createdBy>
+<createdTime>2019-03-09 16:57:16 UTC</createdTime>
+<ownerDesignName>ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_email" id="E67C3C0B-65D5-EB46-9046-F64A251659B3">
+<createdBy>bomber</createdBy>
+<createdTime>2019-03-09 16:57:23 UTC</createdTime>
+<ownerDesignName>ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefone" id="72F2101F-5AF2-AF9B-A698-F9CD578B4561">
+<createdBy>bomber</createdBy>
+<createdTime>2019-03-09 16:57:34 UTC</createdTime>
+<ownerDesignName>ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_genero" id="33E16FA9-A06D-3E0F-290B-3816AC09B909">
+<createdBy>bomber</createdBy>
+<createdTime>2019-03-09 16:57:44 UTC</createdTime>
+<ownerDesignName>ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5BAD20C0-17C1-406F-2CA6-09213B3A585F" name="T_SCA_ALUNO PK">
+<createdBy>bomber</createdBy>
+<createdTime>2019-03-09 16:56:48 UTC</createdTime>
+<ownerDesignName>ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E59E5149-4E46-B788-3226-193626D4AC7D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
