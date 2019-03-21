@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B24FBAF9-8852-EF77-8136-6520D64D5A20" name="T_SIP_DEPARTMENTO">
+<createdBy>aluno</createdBy>
+<createdTime>2018-10-18 01:34:54 UTC</createdTime>
+<generatorID>A1E5A5ED-7BE2-BE65-2C18-FAE1D97D6547</generatorID>
+<ownerDesignName>implantacao_projeto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_departamento" id="E8FC9A38-58D9-A030-92B8-22AE4180631B">
+<createdBy>aluno</createdBy>
+<createdTime>2018-10-18 01:34:54 UTC</createdTime>
+<generatorID>852BE8F6-4809-2F6D-2D73-DA77784D2DA6</generatorID>
+<ownerDesignName>implantacao_projeto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9999</dataTypePrecision>
+<ownDataTypeParameters>,9999,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_departamento" id="09111ADE-F40D-7011-5393-74047FB4A3C3">
+<createdBy>aluno</createdBy>
+<createdTime>2018-10-18 01:34:54 UTC</createdTime>
+<generatorID>D68F3E61-92C4-F550-890A-E794C5DE8CFF</generatorID>
+<ownerDesignName>implantacao_projeto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8063D69B-B0B8-C136-04E7-5FEEE0E6EC7E" name="T_SIP_DEPARTMENTO_PK">
+<createdBy>aluno</createdBy>
+<createdTime>2018-10-18 01:34:54 UTC</createdTime>
+<generatorID>2AE67B7A-6981-805E-28D0-F60E893EB06B</generatorID>
+<ownerDesignName>implantacao_projeto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

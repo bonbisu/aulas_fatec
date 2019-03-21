@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6B8F9072-522E-DE0A-583C-55EF52543DE1" name="T_ESTUDANTEv1">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-14 04:04:04 UTC</createdTime>
+<ownerDesignName>EXEMPLO_RELACAO</ownerDesignName>
+<engineerTo>
+<item key="F1C74BF6-F6C3-DE87-CE2F-687567A2C3AF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nm_matricula" id="3B2B9579-8004-CBD4-F3D4-E717CC4C2CED">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-14 04:04:04 UTC</createdTime>
+<ownerDesignName>EXEMPLO_RELACAO</ownerDesignName>
+<engineerTo>
+<item key="F1C74BF6-F6C3-DE87-CE2F-687567A2C3AF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_estudante" id="28F22740-7A5E-D323-618A-51E7A4D958BA">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-14 04:04:04 UTC</createdTime>
+<ownerDesignName>EXEMPLO_RELACAO</ownerDesignName>
+<engineerTo>
+<item key="F1C74BF6-F6C3-DE87-CE2F-687567A2C3AF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C34B270C-A766-1157-83AC-20E43A3ADE17" name="T_ESTUDANTE PK">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-14 04:04:04 UTC</createdTime>
+<ownerDesignName>EXEMPLO_RELACAO</ownerDesignName>
+<engineerTo>
+<item key="F1C74BF6-F6C3-DE87-CE2F-687567A2C3AF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3B2B9579-8004-CBD4-F3D4-E717CC4C2CED</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

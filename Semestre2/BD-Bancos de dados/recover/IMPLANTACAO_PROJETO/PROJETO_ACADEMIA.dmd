@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="PROJETO_ACADEMIA" id="FAD36455-5206-03B5-B412-0BCE4993048C" version="3.5">
+<createdBy>aluno</createdBy>
+<createdTime>2019-02-28 00:15:47 UTC</createdTime>
+<ownerDesignName>IMPLANTAÇÃO_PROJETO</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>FAD36455-5206-03B5-B412-0BCE4993048C</designId>
+</OSDM_Design>

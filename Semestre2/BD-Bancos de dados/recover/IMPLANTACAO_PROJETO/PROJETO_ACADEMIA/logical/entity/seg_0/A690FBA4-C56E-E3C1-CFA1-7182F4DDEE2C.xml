@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A690FBA4-C56E-E3C1-CFA1-7182F4DDEE2C" name="T_SCA_INSTITUICAO">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-09 16:16:29 UTC</createdTime>
+<ownerDesignName>PROJETO_ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="CF25F887-F636-AB39-82F3-78C79B0C40D4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_instituicao" id="40C6EA91-9142-7F1D-1A30-5752C8AE5AE0">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-09 16:17:21 UTC</createdTime>
+<ownerDesignName>PROJETO_ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="CF25F887-F636-AB39-82F3-78C79B0C40D4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_razao_social" id="5CA35A42-3048-061D-3427-68F2B3D5AA13">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-09 16:17:52 UTC</createdTime>
+<ownerDesignName>PROJETO_ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="CF25F887-F636-AB39-82F3-78C79B0C40D4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cnpj" id="8E96E19D-12CF-C0F4-7666-6D7CE7077866">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-09 16:18:04 UTC</createdTime>
+<ownerDesignName>PROJETO_ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="CF25F887-F636-AB39-82F3-78C79B0C40D4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_endereco" id="660F98B7-8366-8E6E-3B92-8567D5FA021E">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-09 16:18:29 UTC</createdTime>
+<ownerDesignName>PROJETO_ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="CF25F887-F636-AB39-82F3-78C79B0C40D4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefone" id="17C001A7-3D4C-07B2-876B-B6710F6BB67B">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-09 16:18:56 UTC</createdTime>
+<ownerDesignName>PROJETO_ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="CF25F887-F636-AB39-82F3-78C79B0C40D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_contato" id="640036B0-3748-93F2-A015-2748558A3ACD">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-09 16:19:08 UTC</createdTime>
+<ownerDesignName>PROJETO_ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="CF25F887-F636-AB39-82F3-78C79B0C40D4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_email" id="1DF463DE-EDE6-963D-B146-7C40A2098FB6">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-09 16:19:28 UTC</createdTime>
+<ownerDesignName>PROJETO_ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="CF25F887-F636-AB39-82F3-78C79B0C40D4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_desconto" id="D587BFF6-0848-DE02-F08F-A2701B2AA560">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-09 16:19:36 UTC</createdTime>
+<ownerDesignName>PROJETO_ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="CF25F887-F636-AB39-82F3-78C79B0C40D4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2BAC646C-B669-B9E1-9319-A79DA57426E1" name="T_SCA_INSTITUICAO PK">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-09 16:17:51 UTC</createdTime>
+<ownerDesignName>PROJETO_ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="CF25F887-F636-AB39-82F3-78C79B0C40D4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>40C6EA91-9142-7F1D-1A30-5752C8AE5AE0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

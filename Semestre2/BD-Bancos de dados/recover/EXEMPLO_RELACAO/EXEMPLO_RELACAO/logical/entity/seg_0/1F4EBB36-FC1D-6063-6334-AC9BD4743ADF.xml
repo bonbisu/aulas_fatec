@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1F4EBB36-FC1D-6063-6334-AC9BD4743ADF" name="T_DISCIPLINA">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-14 02:33:10 UTC</createdTime>
+<ownerDesignName>EXEMPLO_RELACAO</ownerDesignName>
+<engineerTo>
+<item key="F1C74BF6-F6C3-DE87-CE2F-687567A2C3AF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_disciplina" id="9CE20F67-28FF-0E6C-9F15-D7D8BD5D7974">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-14 02:33:17 UTC</createdTime>
+<ownerDesignName>EXEMPLO_RELACAO</ownerDesignName>
+<engineerTo>
+<item key="F1C74BF6-F6C3-DE87-CE2F-687567A2C3AF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_disciplina" id="1D82E97E-3466-6E35-767A-34DF2AC8F704">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-14 02:33:17 UTC</createdTime>
+<ownerDesignName>EXEMPLO_RELACAO</ownerDesignName>
+<engineerTo>
+<item key="F1C74BF6-F6C3-DE87-CE2F-687567A2C3AF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4572C7C0-08FB-2335-AE4B-668FBE9DAACB" name="T_DISCIPLINA PK">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-14 02:33:24 UTC</createdTime>
+<ownerDesignName>EXEMPLO_RELACAO</ownerDesignName>
+<engineerTo>
+<item key="F1C74BF6-F6C3-DE87-CE2F-687567A2C3AF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9CE20F67-28FF-0E6C-9F15-D7D8BD5D7974</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

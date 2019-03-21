@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="EXEMPLO_RELAC" id="57904935-FDD0-85EF-7DE2-9EBCC5DAAA86" version="3.5">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-09 16:26:39 UTC</createdTime>
+<ownerDesignName>EXEMPLO_RELAC</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>57904935-FDD0-85EF-7DE2-9EBCC5DAAA86</designId>
+</OSDM_Design>

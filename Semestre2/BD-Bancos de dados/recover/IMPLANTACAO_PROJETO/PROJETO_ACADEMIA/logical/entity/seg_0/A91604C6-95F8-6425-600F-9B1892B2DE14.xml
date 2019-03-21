@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A91604C6-95F8-6425-600F-9B1892B2DE14" name="T_SCA_ALUNO">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-09 16:12:20 UTC</createdTime>
+<ownerDesignName>PROJETO_ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="CF25F887-F636-AB39-82F3-78C79B0C40D4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_matricula" id="A990958F-D03B-E0C6-9C10-B8C879E5E911">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-09 16:12:40 UTC</createdTime>
+<ownerDesignName>PROJETO_ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="CF25F887-F636-AB39-82F3-78C79B0C40D4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_aluno" id="DB06D95F-6D86-37FD-0515-0AB85CBBB9F2">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-09 16:12:49 UTC</createdTime>
+<ownerDesignName>PROJETO_ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="CF25F887-F636-AB39-82F3-78C79B0C40D4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="BF3BD89F-8894-C409-4A63-A6BA8230E825">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-09 16:12:58 UTC</createdTime>
+<ownerDesignName>PROJETO_ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="CF25F887-F636-AB39-82F3-78C79B0C40D4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_endereco" id="AA7A29A4-DC2A-6182-392A-3B8EFD5BF03B">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-09 16:13:08 UTC</createdTime>
+<ownerDesignName>PROJETO_ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="CF25F887-F636-AB39-82F3-78C79B0C40D4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_email" id="6C713E6A-2218-F966-DA81-F9B884E3D7C8">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-09 16:13:19 UTC</createdTime>
+<ownerDesignName>PROJETO_ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="CF25F887-F636-AB39-82F3-78C79B0C40D4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefone" id="6A61F2E6-69E4-1FE5-FB5D-6EFBF1BA234F">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-09 16:13:35 UTC</createdTime>
+<ownerDesignName>PROJETO_ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="CF25F887-F636-AB39-82F3-78C79B0C40D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_genero" id="E546C425-B9E9-6A0F-36CC-C29BAF8A35CC">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-09 16:13:50 UTC</createdTime>
+<ownerDesignName>PROJETO_ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="CF25F887-F636-AB39-82F3-78C79B0C40D4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="32FC7891-0BF8-5DC4-5624-C8F38E2978FC" name="T_SCA_ALUNO PK">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-09 16:12:47 UTC</createdTime>
+<ownerDesignName>PROJETO_ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="CF25F887-F636-AB39-82F3-78C79B0C40D4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A990958F-D03B-E0C6-9C10-B8C879E5E911</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

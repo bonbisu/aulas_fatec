@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="A91604C6-95F8-6425-600F-9B1892B2DE14" name="T_SCA_ALUNO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="545C5EC4-249E-FB24-9CFC-9E6C8FA76076" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="B409E1E9-EC36-B778-0F15-AD5B8FE4173B" name="T_SCA_EXAME_MEDICO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="545C5EC4-249E-FB24-9CFC-9E6C8FA76076" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="A690FBA4-C56E-E3C1-CFA1-7182F4DDEE2C" name="T_SCA_INSTITUICAO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="545C5EC4-249E-FB24-9CFC-9E6C8FA76076" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="751E392A-1D39-38A3-F19A-CE67CE242606" name="T_SCA_MODALIDADE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="545C5EC4-249E-FB24-9CFC-9E6C8FA76076" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="0EC4ED51-E5BA-7F55-C3FC-6F83E51E0699" name="T_SCA_PROFESSOR" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="545C5EC4-249E-FB24-9CFC-9E6C8FA76076" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="DF1DB7EE-5C4B-0ABA-4A04-57D8D8CFBC86" name="T_STA_AULAS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="545C5EC4-249E-FB24-9CFC-9E6C8FA76076" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

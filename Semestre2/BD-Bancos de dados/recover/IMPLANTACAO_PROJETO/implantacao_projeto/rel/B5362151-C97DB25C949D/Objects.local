@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="26A2B913-6150-E45B-9D2C-046BBC28306E" name="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="2BAD5113-CDEB-10B2-71A4-06DFBAE92659" name="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="6DDF59FC-F323-B34A-7479-03F8401D9563" name="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="B24FBAF9-8852-EF77-8136-6520D64D5A20" name="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="F1EBB48C-62B2-51EB-E7D7-CAAB3FEF347B" name="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="0DAD90F0-FD3A-43C9-2772-82FBA1902625" name="" containerID="" refContainerID="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="3334FC29-DF52-7494-D8BC-172A50DFFD81" name="" containerID="" refContainerID="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="4A29B7CC-167C-A7F6-4728-0CA532ACBAC2" name="" containerID="" refContainerID="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="E541650C-CFD4-2CA7-FB5B-40B4D6B3A36E" name="" containerID="" refContainerID="" seqName="seg_0" propertyClassName="" propertyParentId="" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

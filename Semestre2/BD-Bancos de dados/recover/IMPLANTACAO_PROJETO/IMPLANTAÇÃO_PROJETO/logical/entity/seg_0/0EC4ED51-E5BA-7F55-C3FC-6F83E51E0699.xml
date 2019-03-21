@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0EC4ED51-E5BA-7F55-C3FC-6F83E51E0699" name="T_SIP_IMPLANTACAO">
+<createdBy>aluno</createdBy>
+<createdTime>2019-02-28 00:36:27 UTC</createdTime>
+<ownerDesignName>IMPLANTAÇÃO_PROJETO</ownerDesignName>
+<engineerTo>
+<item key="CF25F887-F636-AB39-82F3-78C79B0C40D4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_implantacao" id="DA048D76-DA65-80A2-EA6C-BD5372BAF613">
+<createdBy>aluno</createdBy>
+<createdTime>2019-02-28 00:37:07 UTC</createdTime>
+<ownerDesignName>IMPLANTAÇÃO_PROJETO</ownerDesignName>
+<engineerTo>
+<item key="CF25F887-F636-AB39-82F3-78C79B0C40D4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_entrada" id="E907F596-D136-75E0-1D5D-421F7B9D8231">
+<createdBy>aluno</createdBy>
+<createdTime>2019-02-28 00:37:44 UTC</createdTime>
+<ownerDesignName>IMPLANTAÇÃO_PROJETO</ownerDesignName>
+<engineerTo>
+<item key="CF25F887-F636-AB39-82F3-78C79B0C40D4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_saida" id="A2876F1F-87A9-0B01-5F4D-E38DA439FD6E">
+<createdBy>aluno</createdBy>
+<createdTime>2019-02-28 00:37:55 UTC</createdTime>
+<ownerDesignName>IMPLANTAÇÃO_PROJETO</ownerDesignName>
+<engineerTo>
+<item key="CF25F887-F636-AB39-82F3-78C79B0C40D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_matricula" id="A606395F-96B4-C01D-C9E0-C27ABDE75267">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-21 04:19:26 UTC</createdTime>
+<generatorID>2AFACA61-D45E-2263-2275-DDAD26189038</generatorID>
+<ownerDesignName>IMPLANTAÇÃO_PROJETO</ownerDesignName>
+<engineerTo>
+<item key="CF25F887-F636-AB39-82F3-78C79B0C40D4" value="true"/>
+</engineerTo>
+<referedAttribute>28A3C387-72DE-35A7-5401-98BE21449BF7</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_projeto" id="435DBE03-19E0-FB0C-2A72-F5FFB48F4EBE">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-21 04:21:33 UTC</createdTime>
+<generatorID>217EC00A-5DBD-DB06-0018-6B2BFA1619B6</generatorID>
+<ownerDesignName>IMPLANTAÇÃO_PROJETO</ownerDesignName>
+<engineerTo>
+<item key="CF25F887-F636-AB39-82F3-78C79B0C40D4" value="true"/>
+</engineerTo>
+<referedAttribute>103A0833-7691-B66E-5B2C-3E5E2E8BD9C9</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AA89A549-C636-EBF3-1282-44BDE88BB2C6" name="T_SIP_IMPLANTACAO PK">
+<createdBy>aluno</createdBy>
+<createdTime>2019-02-28 00:37:29 UTC</createdTime>
+<ownerDesignName>IMPLANTAÇÃO_PROJETO</ownerDesignName>
+<engineerTo>
+<item key="CF25F887-F636-AB39-82F3-78C79B0C40D4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DA048D76-DA65-80A2-EA6C-BD5372BAF613</attributeRef>
+<attributeRef>435DBE03-19E0-FB0C-2A72-F5FFB48F4EBE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="414FD507-66A8-A5A9-3F9E-8A3444BDB3DB" name="T_SIP_PROJETO">
+<createdBy>aluno</createdBy>
+<createdTime>2018-08-23 01:51:06 UTC</createdTime>
+<ownerDesignName>implantacao_projeto</ownerDesignName>
+<engineerTo>
+<item key="B5362151-9A5B-7964-621B-C97DB25C949D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_projeto" id="BE8B51C9-62CE-E87C-4B11-0C0AAD1CA4E4">
+<createdBy>aluno</createdBy>
+<createdTime>2018-08-23 01:51:32 UTC</createdTime>
+<ownerDesignName>implantacao_projeto</ownerDesignName>
+<engineerTo>
+<item key="B5362151-9A5B-7964-621B-C97DB25C949D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9999</dataTypePrecision>
+<dataTypeScale>4</dataTypeScale>
+<ownDataTypeParameters>,9999,4</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_projeto" id="53644859-3BA7-BEBA-4064-56C1BE45CF3B">
+<createdBy>aluno</createdBy>
+<createdTime>2018-08-23 01:51:53 UTC</createdTime>
+<ownerDesignName>implantacao_projeto</ownerDesignName>
+<engineerTo>
+<item key="B5362151-9A5B-7964-621B-C97DB25C949D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_inicio" id="50F9BEF0-B974-9B3A-BAF1-BB013072D1AC">
+<createdBy>aluno</createdBy>
+<createdTime>2018-08-23 01:52:13 UTC</createdTime>
+<ownerDesignName>implantacao_projeto</ownerDesignName>
+<engineerTo>
+<item key="B5362151-9A5B-7964-621B-C97DB25C949D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_termino" id="084E55EF-515C-1E69-3698-A653A018458F">
+<createdBy>aluno</createdBy>
+<createdTime>2018-08-23 01:52:25 UTC</createdTime>
+<ownerDesignName>implantacao_projeto</ownerDesignName>
+<engineerTo>
+<item key="B5362151-9A5B-7964-621B-C97DB25C949D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F370183E-A317-A65D-7596-44AF5C26E966" name="T_SIP_PROJETO PK">
+<createdBy>aluno</createdBy>
+<createdTime>2018-08-23 01:51:34 UTC</createdTime>
+<ownerDesignName>implantacao_projeto</ownerDesignName>
+<engineerTo>
+<item key="B5362151-9A5B-7964-621B-C97DB25C949D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BE8B51C9-62CE-E87C-4B11-0C0AAD1CA4E4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

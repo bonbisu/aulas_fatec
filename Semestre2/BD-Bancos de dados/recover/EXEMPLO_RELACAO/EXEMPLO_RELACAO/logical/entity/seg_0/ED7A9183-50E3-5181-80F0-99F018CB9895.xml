@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ED7A9183-50E3-5181-80F0-99F018CB9895" name="T_MULHER">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-09 17:22:31 UTC</createdTime>
+<ownerDesignName>EXEMPLO_RELACAO</ownerDesignName>
+<engineerTo>
+<item key="F1C74BF6-F6C3-DE87-CE2F-687567A2C3AF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_mulher" id="08E452FE-D9BD-FF25-DFC6-151755389596">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-09 17:22:44 UTC</createdTime>
+<ownerDesignName>EXEMPLO_RELACAO</ownerDesignName>
+<engineerTo>
+<item key="F1C74BF6-F6C3-DE87-CE2F-687567A2C3AF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_homem" id="99E3EB08-15DA-F09C-74FA-958BFCA4D186">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-09 17:28:36 UTC</createdTime>
+<generatorID>7AC985A5-C60B-F159-E1C8-9028A3909054</generatorID>
+<ownerDesignName>EXEMPLO_RELACAO</ownerDesignName>
+<engineerTo>
+<item key="F1C74BF6-F6C3-DE87-CE2F-687567A2C3AF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F8A2449F-B353-3AB0-8415-CED94D237619</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_mulher" id="9EC72CB4-6C07-B9B8-7FCE-39CDB1322172">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-09 17:22:51 UTC</createdTime>
+<ownerDesignName>EXEMPLO_RELACAO</ownerDesignName>
+<engineerTo>
+<item key="F1C74BF6-F6C3-DE87-CE2F-687567A2C3AF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1443D632-7821-10F5-ED28-6C7F4708E083" name="T_MULHER PK">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-09 17:22:50 UTC</createdTime>
+<ownerDesignName>EXEMPLO_RELACAO</ownerDesignName>
+<engineerTo>
+<item key="F1C74BF6-F6C3-DE87-CE2F-687567A2C3AF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>08E452FE-D9BD-FF25-DFC6-151755389596</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

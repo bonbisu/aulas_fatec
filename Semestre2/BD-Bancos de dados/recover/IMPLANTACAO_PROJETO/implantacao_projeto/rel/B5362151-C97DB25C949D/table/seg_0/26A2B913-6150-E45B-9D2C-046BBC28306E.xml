@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="26A2B913-6150-E45B-9D2C-046BBC28306E" name="T_SIP_FUNCIONARIO">
+<createdBy>aluno</createdBy>
+<createdTime>2018-10-18 01:34:54 UTC</createdTime>
+<generatorID>7A4838BD-052A-E0D1-1AFD-FB9FE5BBA038</generatorID>
+<ownerDesignName>implantacao_projeto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_matricula" id="A0452D28-117D-CD40-2A8F-A19350A5C901">
+<createdBy>aluno</createdBy>
+<createdTime>2018-10-18 01:34:54 UTC</createdTime>
+<generatorID>947E27BC-4128-DDBC-E475-26C4B0954208</generatorID>
+<ownerDesignName>implantacao_projeto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>999</dataTypePrecision>
+<ownDataTypeParameters>,999,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_funcionario" id="32DD6FD7-B590-D91C-74C4-DC789C9319AC">
+<createdBy>aluno</createdBy>
+<createdTime>2018-10-18 01:34:54 UTC</createdTime>
+<generatorID>D9F79FE7-EB85-5EE7-7290-B13C50666DFE</generatorID>
+<ownerDesignName>implantacao_projeto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="EA89C82F-8C1B-7994-AC24-F448590ACD30">
+<createdBy>aluno</createdBy>
+<createdTime>2018-10-18 01:34:54 UTC</createdTime>
+<generatorID>3F7B0EBB-C4B7-330D-540B-871F3211425E</generatorID>
+<ownerDesignName>implantacao_projeto</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_admissao" id="F02C258D-F0C5-236E-0D84-F7F6695E13BB">
+<createdBy>aluno</createdBy>
+<createdTime>2018-10-18 01:34:54 UTC</createdTime>
+<generatorID>24966DCD-53B0-2CDC-A627-159FA5F2C519</generatorID>
+<ownerDesignName>implantacao_projeto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_salario" id="6DF47B6D-112E-15A6-1D10-28DBDA2B3D0C">
+<createdBy>aluno</createdBy>
+<createdTime>2018-10-18 01:34:54 UTC</createdTime>
+<generatorID>223A8ADC-371C-0B5D-18BB-4A98B1A179D4</generatorID>
+<ownerDesignName>implantacao_projeto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_endereco" id="44276D44-8FC2-BFE7-9E8E-FE201DD87247">
+<createdBy>aluno</createdBy>
+<createdTime>2018-10-18 01:34:54 UTC</createdTime>
+<generatorID>FA72D478-90C3-664A-8077-6547E4F77A35</generatorID>
+<ownerDesignName>implantacao_projeto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C9F6F95D-A07C-F51D-F862-6C36039F03E4" name="PK_SIP_FUNC">
+<createdBy>aluno</createdBy>
+<createdTime>2018-10-18 01:34:54 UTC</createdTime>
+<generatorID>00012AB3-F553-A90A-FF30-F1CB6C20CE53</generatorID>
+<ownerDesignName>implantacao_projeto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0452D28-117D-CD40-2A8F-A19350A5C901"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="337AA625-22E0-C39E-8ABB-39791A41DD8B" name="T_SIP_FUNCIONARIO_T_SIP_DEPARTMENTO_FK">
+<createdBy>aluno</createdBy>
+<createdTime>2018-10-18 01:34:54 UTC</createdTime>
+<generatorID>89BFF584-C413-ECC2-3764-AEDB9F1C962A</generatorID>
+<ownerDesignName>implantacao_projeto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="CK_SIP_FUNC_SALARIO" directorySegmentName="seg_0" id="5DD851E0-26A2-F4F1-EFB2-D8D31E014919">
+<createdBy>aluno</createdBy>
+<createdTime>2018-10-18 02:00:01 UTC</createdTime>
+<ownerDesignName>implantacao_projeto</ownerDesignName>
+<rule>VL_SALARIO &gt;= 1108.38</rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

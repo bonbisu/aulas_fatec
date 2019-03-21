@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2419943F-F76F-FA5A-7CA2-A74C842A4844" name="T_MATRICULA">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-14 03:30:31 UTC</createdTime>
+<ownerDesignName>EXEMPLO_RELACAO</ownerDesignName>
+<engineerTo>
+<item key="F1C74BF6-F6C3-DE87-CE2F-687567A2C3AF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dt_matricula" id="472BC440-73A5-79CA-BE6F-BBD267F9EB61">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-14 03:30:39 UTC</createdTime>
+<ownerDesignName>EXEMPLO_RELACAO</ownerDesignName>
+<engineerTo>
+<item key="F1C74BF6-F6C3-DE87-CE2F-687567A2C3AF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_matricula" id="6E31B5D8-E1FC-2FC8-1C94-A962857A1C36">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-14 03:30:45 UTC</createdTime>
+<ownerDesignName>EXEMPLO_RELACAO</ownerDesignName>
+<engineerTo>
+<item key="F1C74BF6-F6C3-DE87-CE2F-687567A2C3AF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_disciplina" id="EDA1E2A6-221C-6D40-940F-5C46E966B175">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-14 03:37:49 UTC</createdTime>
+<generatorID>398F64BC-1635-91A2-C9AF-65231364B715</generatorID>
+<ownerDesignName>EXEMPLO_RELACAO</ownerDesignName>
+<engineerTo>
+<item key="F1C74BF6-F6C3-DE87-CE2F-687567A2C3AF" value="true"/>
+</engineerTo>
+<referedAttribute>9CE20F67-28FF-0E6C-9F15-D7D8BD5D7974</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_matricula" id="BB8661EC-09CF-7CF6-55B6-6D54DB1D74F5">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-14 03:38:01 UTC</createdTime>
+<generatorID>7BE57EE7-8F63-57EB-9378-8E63507952A8</generatorID>
+<ownerDesignName>EXEMPLO_RELACAO</ownerDesignName>
+<engineerTo>
+<item key="F1C74BF6-F6C3-DE87-CE2F-687567A2C3AF" value="true"/>
+</engineerTo>
+<referedAttribute>D15F9668-CC2C-AF45-911A-E306EAFCDE2B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sq_matricula" id="F86C80F5-8E2C-E618-9586-E0BFE8B69BB6">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-14 03:49:31 UTC</createdTime>
+<ownerDesignName>EXEMPLO_RELACAO</ownerDesignName>
+<engineerTo>
+<item key="F1C74BF6-F6C3-DE87-CE2F-687567A2C3AF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3E38337F-7B89-364E-A971-A5BF196E9840" name="T_MATRICULA PK">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-14 03:35:31 UTC</createdTime>
+<ownerDesignName>EXEMPLO_RELACAO</ownerDesignName>
+<engineerTo>
+<item key="F1C74BF6-F6C3-DE87-CE2F-687567A2C3AF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EDA1E2A6-221C-6D40-940F-5C46E966B175</attributeRef>
+<attributeRef>BB8661EC-09CF-7CF6-55B6-6D54DB1D74F5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B409E1E9-EC36-B778-0F15-AD5B8FE4173B" name="T_SCA_EXAME_MEDICO">
+<createdBy>aluno</createdBy>
+<createdTime>2019-02-28 00:33:48 UTC</createdTime>
+<ownerDesignName>PROJETO_ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="CF25F887-F636-AB39-82F3-78C79B0C40D4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_exame_medico" id="83B0904D-F974-D640-8713-5248A9CC839D">
+<createdBy>aluno</createdBy>
+<createdTime>2019-02-28 00:34:04 UTC</createdTime>
+<ownerDesignName>PROJETO_ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="CF25F887-F636-AB39-82F3-78C79B0C40D4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_pressao" id="36F06A9E-C6EF-21F4-5530-448B96D5786C">
+<createdBy>aluno</createdBy>
+<createdTime>2019-02-28 00:34:14 UTC</createdTime>
+<ownerDesignName>PROJETO_ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="CF25F887-F636-AB39-82F3-78C79B0C40D4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_batimento_cardiaco" id="241B6F67-7020-3B0B-61E8-90FFA4E37F44">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-09 16:04:29 UTC</createdTime>
+<ownerDesignName>PROJETO_ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="CF25F887-F636-AB39-82F3-78C79B0C40D4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_peso" id="2994794B-C0DB-805E-ACBD-1155B626852E">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-09 16:04:36 UTC</createdTime>
+<ownerDesignName>PROJETO_ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="CF25F887-F636-AB39-82F3-78C79B0C40D4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_altura" id="DBB6D92C-15AF-D020-E120-D3A833022DE5">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-09 16:04:45 UTC</createdTime>
+<ownerDesignName>PROJETO_ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="CF25F887-F636-AB39-82F3-78C79B0C40D4" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ob_exame_medico" id="AD74ECFB-687D-7604-72D3-9921017D00B3">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-09 16:04:53 UTC</createdTime>
+<ownerDesignName>PROJETO_ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="CF25F887-F636-AB39-82F3-78C79B0C40D4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7703FF82-F71D-3C40-7E6C-AAE166CCDDBA" name="T_SIP_DEPARTAMENTO PK">
+<createdBy>aluno</createdBy>
+<createdTime>2019-02-28 00:34:11 UTC</createdTime>
+<ownerDesignName>PROJETO_ACADEMIA</ownerDesignName>
+<engineerTo>
+<item key="CF25F887-F636-AB39-82F3-78C79B0C40D4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>83B0904D-F974-D640-8713-5248A9CC839D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

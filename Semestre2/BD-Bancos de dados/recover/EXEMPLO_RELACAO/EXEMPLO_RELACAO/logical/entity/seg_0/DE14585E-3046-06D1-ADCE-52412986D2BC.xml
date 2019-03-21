@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DE14585E-3046-06D1-ADCE-52412986D2BC" name="T_DEPENDENTE">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-14 01:58:48 UTC</createdTime>
+<ownerDesignName>EXEMPLO_RELACAO</ownerDesignName>
+<engineerTo>
+<item key="F1C74BF6-F6C3-DE87-CE2F-687567A2C3AF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_dependente" id="5D11110E-CECF-D8C9-7887-BC7080574FF0">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-14 01:58:56 UTC</createdTime>
+<ownerDesignName>EXEMPLO_RELACAO</ownerDesignName>
+<engineerTo>
+<item key="F1C74BF6-F6C3-DE87-CE2F-687567A2C3AF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_dependente" id="C1CDE887-EC6C-E57A-B5D4-E600A0F4081C">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-14 01:59:06 UTC</createdTime>
+<ownerDesignName>EXEMPLO_RELACAO</ownerDesignName>
+<engineerTo>
+<item key="F1C74BF6-F6C3-DE87-CE2F-687567A2C3AF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="B961785C-093A-4D3F-7CAB-4A42BA5C4752">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-14 01:59:20 UTC</createdTime>
+<ownerDesignName>EXEMPLO_RELACAO</ownerDesignName>
+<engineerTo>
+<item key="F1C74BF6-F6C3-DE87-CE2F-687567A2C3AF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_matricula" id="288BB919-9521-0D06-7641-AD138DF33B17">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-14 02:03:01 UTC</createdTime>
+<generatorID>A13D623B-4051-555F-9223-F2AE94E76C08</generatorID>
+<ownerDesignName>EXEMPLO_RELACAO</ownerDesignName>
+<engineerTo>
+<item key="F1C74BF6-F6C3-DE87-CE2F-687567A2C3AF" value="true"/>
+</engineerTo>
+<referedAttribute>91E700CD-CF6B-F7AF-F936-1A1FA58AC38A</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="442AB312-955D-D3F4-6593-341B299088E7" name="T_DEPENDENTE PK">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-14 01:59:32 UTC</createdTime>
+<ownerDesignName>EXEMPLO_RELACAO</ownerDesignName>
+<engineerTo>
+<item key="F1C74BF6-F6C3-DE87-CE2F-687567A2C3AF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5D11110E-CECF-D8C9-7887-BC7080574FF0</attributeRef>
+<attributeRef>288BB919-9521-0D06-7641-AD138DF33B17</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6DDF59FC-F323-B34A-7479-03F8401D9563" name="T_SIP_DEPENDENTE">
+<createdBy>aluno</createdBy>
+<createdTime>2018-10-18 01:34:54 UTC</createdTime>
+<generatorID>CCC251A2-1083-A8D2-59E3-0D05C4D8E647</generatorID>
+<ownerDesignName>implantacao_projeto</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nr_matricula" id="377CC5BF-528A-5200-45AA-BF0EDB247FE8">
+<createdBy>aluno</createdBy>
+<createdTime>2018-10-18 01:34:54 UTC</createdTime>
+<generatorID>AFFABC52-6B2A-504E-461D-A1B0D5CB8CF9</generatorID>
+<ownerDesignName>implantacao_projeto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>999</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E541650C-CFD4-2CA7-FB5B-40B4D6B3A36E" referredColumn="A0452D28-117D-CD40-2A8F-A19350A5C901"/>
+</associations>
+</Column>
+<Column name="cd_dependente" id="C622FB83-9808-D710-FFA3-C0DB866A704A">
+<createdBy>aluno</createdBy>
+<createdTime>2018-10-18 01:34:54 UTC</createdTime>
+<generatorID>0CCF172D-AB97-62C2-334F-3AC423FC195A</generatorID>
+<ownerDesignName>implantacao_projeto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_funcionario" id="05C02E56-8586-BA23-0833-139CC9FC8208">
+<createdBy>aluno</createdBy>
+<createdTime>2018-10-18 01:34:54 UTC</createdTime>
+<generatorID>98D9406E-E5BA-368C-0F61-6DB1284B9804</generatorID>
+<ownerDesignName>implantacao_projeto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_nascimento" id="18FC63B6-5796-2584-61FF-CD24FBC67835">
+<createdBy>aluno</createdBy>
+<createdTime>2018-10-18 01:34:54 UTC</createdTime>
+<generatorID>70A66CB9-8522-0977-7826-32DCD0A7505B</generatorID>
+<ownerDesignName>implantacao_projeto</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A646AA8C-2156-8FE9-F443-7D49D0B31D3F" name="PK_SIP_DEPENDENTE">
+<createdBy>aluno</createdBy>
+<createdTime>2018-10-18 01:34:54 UTC</createdTime>
+<generatorID>9E88031E-C701-F174-A288-23EAEC29CC22</generatorID>
+<ownerDesignName>implantacao_projeto</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C622FB83-9808-D710-FFA3-C0DB866A704A"/>
+<colUsage columnID="377CC5BF-528A-5200-45AA-BF0EDB247FE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E40E1D47-4929-5941-441B-9A48B4F22E83" name="FK_SIP_DEPENDENTE_FUNC">
+<createdBy>aluno</createdBy>
+<createdTime>2018-10-18 01:34:54 UTC</createdTime>
+<generatorID>1833CB43-2638-1D54-E32C-12A1217043C4</generatorID>
+<ownerDesignName>implantacao_projeto</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="377CC5BF-528A-5200-45AA-BF0EDB247FE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
