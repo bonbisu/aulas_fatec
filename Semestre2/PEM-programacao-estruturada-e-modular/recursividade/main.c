@@ -15,14 +15,9 @@ int fatorial(int n)
 {
     int fat;
     if (n == 0)
-        return 1; // para corri
+        return 1; // para corrigir fatorial de 0
     else
-    {
-        if (n > 1)
-        {
-            fat = n * fatorial(n - 1);
-        }
-    }
+        return n * fatorial(n - 1); // já que fatorial(0) == 1, não precisamos do if(n>1)
 }
 
 int main()
