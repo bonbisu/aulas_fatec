@@ -11,8 +11,23 @@ void contar(int inicio, int fim)
     }
 }
 
+int fatorial(int n)
+{
+    int fat;
+    if (n == 0)
+        return 1; // para corri
+    else
+    {
+        if (n > 1)
+        {
+            fat = n * fatorial(n - 1);
+        }
+    }
+}
+
 int main()
 {
-    contar(1, 10);
+    //contar(1, 10);
+    printf("Fatorial de 7 eh %d", fatorial(7));
     return 0;
 }
