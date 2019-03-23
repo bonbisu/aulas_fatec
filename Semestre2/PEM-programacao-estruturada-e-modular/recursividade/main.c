@@ -1,17 +1,18 @@
 #include <stdio.h>
-void contar(int); // função prototipada, caso uma função deva ser declarada antes, mas não se pode, podemos declarar depois
+#include <unistd.h> // for linux, for windows use #include <windows.h> and Sleep(int)
+
+void contar(int inicio, int fim)
+{
+    if (inicio <= fim)
+    {
+        printf("%d\n", inicio * 7); // tabuada do 7 XD
+        sleep(1);
+        contar(inicio + 1, fim);
+    }
+}
 
 int main()
 {
-    contar(10);
+    contar(1, 10);
     return 0;
-}
-
-void contar(int i)
-{
-    if (i > 0)
-    {
-        printf("%d\n", i);
-        contar(i - 1);
-    }
 }
