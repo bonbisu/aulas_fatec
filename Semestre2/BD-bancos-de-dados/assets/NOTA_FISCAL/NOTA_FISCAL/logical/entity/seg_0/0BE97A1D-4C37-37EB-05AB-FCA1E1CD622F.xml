@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0BE97A1D-4C37-37EB-05AB-FCA1E1CD622F" name="T_SPV_OPERACAO">
+<createdBy>aluno</createdBy>
+<createdTime>2019-02-28 00:43:28 UTC</createdTime>
+<ownerDesignName>NOTA_FISCAL</ownerDesignName>
+<engineerTo>
+<item key="0FBC7304-2980-D073-5779-047234A646DE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_classif_fiscal" id="5F0E65A6-F8FE-32F3-0B86-C4AB418CEA15">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-23 15:55:46 UTC</createdTime>
+<ownerDesignName>NOTA_FISCAL</ownerDesignName>
+<engineerTo>
+<item key="0FBC7304-2980-D073-5779-047234A646DE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cfop" id="52C69350-D3C3-BF92-25C2-193B31083138">
+<createdBy>aluno</createdBy>
+<createdTime>2019-02-28 00:43:45 UTC</createdTime>
+<ownerDesignName>NOTA_FISCAL</ownerDesignName>
+<engineerTo>
+<item key="0FBC7304-2980-D073-5779-047234A646DE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_natureza_op" id="7AAEE38E-3903-EB47-C9EC-01F8DB49E72D">
+<createdBy>aluno</createdBy>
+<createdTime>2019-02-28 00:43:55 UTC</createdTime>
+<ownerDesignName>NOTA_FISCAL</ownerDesignName>
+<engineerTo>
+<item key="0FBC7304-2980-D073-5779-047234A646DE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="40A3D552-6E19-E878-C3CA-D7C662F7725C" name="T_SPV_OPERACAO PK">
+<createdBy>aluno</createdBy>
+<createdTime>2019-02-28 00:43:49 UTC</createdTime>
+<ownerDesignName>NOTA_FISCAL</ownerDesignName>
+<engineerTo>
+<item key="0FBC7304-2980-D073-5779-047234A646DE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5F0E65A6-F8FE-32F3-0B86-C4AB418CEA15</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

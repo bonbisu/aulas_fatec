@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="COMPRAR" directorySegmentName="seg_0" id="F9CF9970-DC4A-141A-9098-C8D2C3A93463">
+<createdBy>root</createdBy>
+<createdTime>2019-03-23 16:36:45 UTC</createdTime>
+<ownerDesignName>Nota_Fiscal</ownerDesignName>
+<engineerTo>
+<item key="1CE0FDE2-ECEA-F0A2-6D99-12C44ED23EB6" value="true"/>
+</engineerTo>
+<sourcePk>CE76561C-7404-2484-4AC8-FB633D68FC59</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2BAC87D3-4471-7812-7106-702F96EB0B98</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DD2D2F41-0E6C-6C24-AA75-C45EE2071024</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

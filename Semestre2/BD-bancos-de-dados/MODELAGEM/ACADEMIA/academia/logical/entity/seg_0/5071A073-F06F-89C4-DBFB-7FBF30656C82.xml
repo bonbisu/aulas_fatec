@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5071A073-F06F-89C4-DBFB-7FBF30656C82" name="T_SCA_APTIDAO">
+<createdBy>root</createdBy>
+<createdTime>2019-03-28 00:43:50 UTC</createdTime>
+<ownerDesignName>academia</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_matricula" id="E6C50491-F60B-4D0D-0552-21081D210A63">
+<createdBy>root</createdBy>
+<createdTime>2019-03-28 00:53:56 UTC</createdTime>
+<generatorID>9D66F6E4-3E7F-783B-3D31-A999FCF80100</generatorID>
+<ownerDesignName>academia</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<referedAttribute>FE1521D7-9777-1450-45A8-DA0902F7A703</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_modalidade" id="F5B63888-82CD-0918-74D0-A4CEDB36AF6E">
+<createdBy>root</createdBy>
+<createdTime>2019-03-28 00:55:46 UTC</createdTime>
+<generatorID>8FD87BF6-2CA5-630B-8F18-C35C1B941924</generatorID>
+<ownerDesignName>academia</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<referedAttribute>B59B8C53-4E35-44AD-A032-888035A5D2EC</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_apto_modalidade" id="AD242AE9-86C3-9C2E-C732-900663BB067F">
+<createdBy>root</createdBy>
+<createdTime>2019-03-28 00:59:12 UTC</createdTime>
+<ownerDesignName>academia</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D0D40085-7E28-81D2-62BA-E0D81B7014B3" name="T_SCA_APTIDAO PK">
+<createdBy>root</createdBy>
+<createdTime>2019-03-28 01:11:31 UTC</createdTime>
+<ownerDesignName>academia</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E6C50491-F60B-4D0D-0552-21081D210A63</attributeRef>
+<attributeRef>F5B63888-82CD-0918-74D0-A4CEDB36AF6E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

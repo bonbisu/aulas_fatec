@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="90FF6E4B-992C-F719-1351-CC3836E79F25" name="T_SPV_UNIDADE_MEDIDA">
+<createdBy>root</createdBy>
+<createdTime>2019-03-23 16:38:44 UTC</createdTime>
+<ownerDesignName>Nota_Fiscal</ownerDesignName>
+<engineerTo>
+<item key="1CE0FDE2-ECEA-F0A2-6D99-12C44ED23EB6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_unidade_medida" id="FDDEA5D7-7DAD-F714-24D7-6DD3019C44C3">
+<createdBy>root</createdBy>
+<createdTime>2019-03-23 16:39:02 UTC</createdTime>
+<ownerDesignName>Nota_Fiscal</ownerDesignName>
+<engineerTo>
+<item key="1CE0FDE2-ECEA-F0A2-6D99-12C44ED23EB6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_sigla_unid_medida" id="D56EB4C5-9953-9B5F-1D3C-C149CCCACC97">
+<createdBy>root</createdBy>
+<createdTime>2019-03-23 16:39:13 UTC</createdTime>
+<ownerDesignName>Nota_Fiscal</ownerDesignName>
+<engineerTo>
+<item key="1CE0FDE2-ECEA-F0A2-6D99-12C44ED23EB6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_unidade_medida" id="11143AEA-B74B-478A-6545-D8EFAA2C3726">
+<createdBy>root</createdBy>
+<createdTime>2019-03-23 16:39:38 UTC</createdTime>
+<ownerDesignName>Nota_Fiscal</ownerDesignName>
+<engineerTo>
+<item key="1CE0FDE2-ECEA-F0A2-6D99-12C44ED23EB6" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="665F955C-B0A7-44E2-A4E4-6C3045914464" name="T_SPV_UNIDADE_MEDIDA PK">
+<createdBy>root</createdBy>
+<createdTime>2019-03-23 16:39:12 UTC</createdTime>
+<ownerDesignName>Nota_Fiscal</ownerDesignName>
+<engineerTo>
+<item key="1CE0FDE2-ECEA-F0A2-6D99-12C44ED23EB6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FDDEA5D7-7DAD-F714-24D7-6DD3019C44C3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

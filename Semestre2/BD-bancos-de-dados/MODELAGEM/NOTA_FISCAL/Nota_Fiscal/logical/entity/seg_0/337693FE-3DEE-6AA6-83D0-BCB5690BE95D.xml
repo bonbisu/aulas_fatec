@@ -25,6 +25,18 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="cd_unidade_medida" id="F515201F-1A80-A9BD-5A19-CD31DAA38C97">
+<createdBy>root</createdBy>
+<createdTime>2019-03-23 16:40:26 UTC</createdTime>
+<generatorID>B7D5E5DF-1B0B-8EB6-3D00-ECA89FFCA30C</generatorID>
+<ownerDesignName>Nota_Fiscal</ownerDesignName>
+<engineerTo>
+<item key="1CE0FDE2-ECEA-F0A2-6D99-12C44ED23EB6" value="true"/>
+</engineerTo>
+<referedAttribute>FDDEA5D7-7DAD-F714-24D7-6DD3019C44C3</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="ds_produto" id="DBA22F74-2AD0-5B01-13CA-0775F84549FF">
 <createdBy>aluno</createdBy>
 <createdTime>2019-02-28 00:46:27 UTC</createdTime>
@@ -66,4 +78,18 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="896141E4-BCB7-5E1F-7385-B86FC2E90A8C" name="T_SPV_PRODUTO PK">
+<createdBy>root</createdBy>
+<createdTime>2019-03-23 17:15:44 UTC</createdTime>
+<ownerDesignName>Nota_Fiscal</ownerDesignName>
+<engineerTo>
+<item key="1CE0FDE2-ECEA-F0A2-6D99-12C44ED23EB6" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5919ABC6-FCF5-2FB5-0AC8-AD717B53625C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

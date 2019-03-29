@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="57BA17BC-DE2D-6205-F899-CE6E0B61D71B" name="T_SPV_UNID_MEDIDA">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-23 15:57:34 UTC</createdTime>
+<ownerDesignName>NOTA_FISCAL</ownerDesignName>
+<engineerTo>
+<item key="0FBC7304-2980-D073-5779-047234A646DE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_unid_medida" id="35076CDD-1951-772B-B19D-F1120557A128">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-23 15:57:46 UTC</createdTime>
+<ownerDesignName>NOTA_FISCAL</ownerDesignName>
+<engineerTo>
+<item key="0FBC7304-2980-D073-5779-047234A646DE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_sigla_unid_medida" id="571EA26F-A142-BBEB-D747-5CD1E37E7BBC">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-23 15:57:56 UTC</createdTime>
+<ownerDesignName>NOTA_FISCAL</ownerDesignName>
+<engineerTo>
+<item key="0FBC7304-2980-D073-5779-047234A646DE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_unid_medida" id="4E92FF39-D0A0-9789-D55A-A44E6A224576">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-23 15:58:09 UTC</createdTime>
+<ownerDesignName>NOTA_FISCAL</ownerDesignName>
+<engineerTo>
+<item key="0FBC7304-2980-D073-5779-047234A646DE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E96A854C-7B6A-C065-DE33-676DE22A80BB" name="T_SPV_UNID_MEDIDA PK">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-23 15:57:52 UTC</createdTime>
+<ownerDesignName>NOTA_FISCAL</ownerDesignName>
+<engineerTo>
+<item key="0FBC7304-2980-D073-5779-047234A646DE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>35076CDD-1951-772B-B19D-F1120557A128</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

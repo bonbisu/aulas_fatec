@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FREQUENTAR" directorySegmentName="seg_0" id="91DD8343-23CE-0621-6897-655418ADD76D">
+<createdBy>root</createdBy>
+<createdTime>2019-03-28 00:19:15 UTC</createdTime>
+<ownerDesignName>academia</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>789FF714-048D-B6DC-9152-2275D96F9C9F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E5E60D51-F8FB-1E30-2DE0-D70105D5BF38</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

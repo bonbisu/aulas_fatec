@@ -2,7 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1D94A251-306F-D3EF-ACF7-8AB31809CE09" name="T_SCA_MODALIDADE">
 <createdBy>bomber</createdBy>
 <createdTime>2019-03-09 16:58:19 UTC</createdTime>
-<ownerDesignName>ACADEMIA</ownerDesignName>
+<ownerDesignName>academia</ownerDesignName>
 <engineerTo>
 <item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
 </engineerTo>
@@ -18,7 +18,7 @@
 <Attribute name="cd_modalidade" id="B59B8C53-4E35-44AD-A032-888035A5D2EC">
 <createdBy>bomber</createdBy>
 <createdTime>2019-03-09 16:58:47 UTC</createdTime>
-<ownerDesignName>ACADEMIA</ownerDesignName>
+<ownerDesignName>academia</ownerDesignName>
 <engineerTo>
 <item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
 </engineerTo>
@@ -28,10 +28,31 @@
 <Attribute name="ds_modalidade" id="994E2F65-A15A-2776-0637-2370FEC24922">
 <createdBy>bomber</createdBy>
 <createdTime>2019-03-09 16:59:11 UTC</createdTime>
-<ownerDesignName>ACADEMIA</ownerDesignName>
+<ownerDesignName>academia</ownerDesignName>
 <engineerTo>
 <item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
 </engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_inicio" id="D46A9401-1EC2-F025-D7A7-3BD2FCBC2885">
+<createdBy>root</createdBy>
+<createdTime>2019-03-23 17:50:26 UTC</createdTime>
+<ownerDesignName>academia</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_termino" id="8FA96E69-4A06-8085-2871-768B2A1C3B1E">
+<createdBy>root</createdBy>
+<createdTime>2019-03-23 17:50:35 UTC</createdTime>
+<ownerDesignName>academia</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -40,7 +61,7 @@
 <identifier id="BB81DDCA-5877-A43E-B7A8-1B3E89B6A0FB" name="T_SCA_MODALIDADE PK">
 <createdBy>bomber</createdBy>
 <createdTime>2019-03-09 16:59:09 UTC</createdTime>
-<ownerDesignName>ACADEMIA</ownerDesignName>
+<ownerDesignName>academia</ownerDesignName>
 <engineerTo>
 <item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
 </engineerTo>

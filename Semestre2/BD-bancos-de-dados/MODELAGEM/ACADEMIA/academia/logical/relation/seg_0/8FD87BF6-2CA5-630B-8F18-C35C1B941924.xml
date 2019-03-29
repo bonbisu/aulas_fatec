@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="APTIDAOv1" directorySegmentName="seg_0" id="8FD87BF6-2CA5-630B-8F18-C35C1B941924">
+<createdBy>root</createdBy>
+<createdTime>2019-03-28 00:55:46 UTC</createdTime>
+<ownerDesignName>academia</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<sourcePk>BB81DDCA-5877-A43E-B7A8-1B3E89B6A0FB</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1D94A251-306F-D3EF-ACF7-8AB31809CE09</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5071A073-F06F-89C4-DBFB-7FBF30656C82</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

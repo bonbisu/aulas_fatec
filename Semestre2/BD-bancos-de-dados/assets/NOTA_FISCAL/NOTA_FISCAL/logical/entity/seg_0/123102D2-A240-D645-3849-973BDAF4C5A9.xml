@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="123102D2-A240-D645-3849-973BDAF4C5A9" name="T_SPV_CLIENTE">
+<createdBy>aluno</createdBy>
+<createdTime>2019-02-28 00:37:45 UTC</createdTime>
+<ownerDesignName>NOTA_FISCAL</ownerDesignName>
+<engineerTo>
+<item key="0FBC7304-2980-D073-5779-047234A646DE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_cliente" id="379F3BF8-5D74-BD2E-FF20-40C523437B09">
+<createdBy>aluno</createdBy>
+<createdTime>2019-02-28 00:38:32 UTC</createdTime>
+<ownerDesignName>NOTA_FISCAL</ownerDesignName>
+<engineerTo>
+<item key="0FBC7304-2980-D073-5779-047234A646DE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_cliente" id="B6057195-8447-B13D-DCDE-12055E61EE48">
+<createdBy>aluno</createdBy>
+<createdTime>2019-02-28 00:38:48 UTC</createdTime>
+<ownerDesignName>NOTA_FISCAL</ownerDesignName>
+<engineerTo>
+<item key="0FBC7304-2980-D073-5779-047234A646DE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_genero" id="A5471F9D-9DAD-D6D9-2450-E09D1B0BA780">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-23 15:54:29 UTC</createdTime>
+<ownerDesignName>NOTA_FISCAL</ownerDesignName>
+<engineerTo>
+<item key="0FBC7304-2980-D073-5779-047234A646DE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cpf" id="A29669F4-C9A2-9480-A81B-B4514FED9CEC">
+<createdBy>aluno</createdBy>
+<createdTime>2019-02-28 00:39:24 UTC</createdTime>
+<ownerDesignName>NOTA_FISCAL</ownerDesignName>
+<engineerTo>
+<item key="0FBC7304-2980-D073-5779-047234A646DE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_rg" id="401BFE28-CACD-8FDB-8593-BD10C589B10D">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-23 15:54:42 UTC</createdTime>
+<ownerDesignName>NOTA_FISCAL</ownerDesignName>
+<engineerTo>
+<item key="0FBC7304-2980-D073-5779-047234A646DE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="C73F498C-B953-B77F-DC9A-88DAED42E572">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-23 15:54:53 UTC</createdTime>
+<ownerDesignName>NOTA_FISCAL</ownerDesignName>
+<engineerTo>
+<item key="0FBC7304-2980-D073-5779-047234A646DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_endereco" id="F814A1A8-FE86-B835-4552-E05BF769813E">
+<createdBy>aluno</createdBy>
+<createdTime>2019-02-28 00:40:07 UTC</createdTime>
+<ownerDesignName>NOTA_FISCAL</ownerDesignName>
+<engineerTo>
+<item key="0FBC7304-2980-D073-5779-047234A646DE" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_email" id="D7455F67-34BF-7811-06E3-24FBA32086F6">
+<createdBy>aluno</createdBy>
+<createdTime>2019-03-23 15:55:22 UTC</createdTime>
+<ownerDesignName>NOTA_FISCAL</ownerDesignName>
+<engineerTo>
+<item key="0FBC7304-2980-D073-5779-047234A646DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefone" id="F4DC9C2D-8DAA-8DF7-2A20-A94D0518197F">
+<createdBy>aluno</createdBy>
+<createdTime>2019-02-28 00:40:17 UTC</createdTime>
+<ownerDesignName>NOTA_FISCAL</ownerDesignName>
+<engineerTo>
+<item key="0FBC7304-2980-D073-5779-047234A646DE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D765F36A-65D9-DC5A-754C-116DB5F434AF" name="T_SPV_CLIENTE PK">
+<createdBy>aluno</createdBy>
+<createdTime>2019-02-28 00:38:35 UTC</createdTime>
+<ownerDesignName>NOTA_FISCAL</ownerDesignName>
+<engineerTo>
+<item key="0FBC7304-2980-D073-5779-047234A646DE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>379F3BF8-5D74-BD2E-FF20-40C523437B09</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

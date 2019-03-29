@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E7C93163-4C99-3643-5203-3906EAA635F4" name="T_SPV_OPERACAO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E7C93163-4C99-3643-5203-3906EAA635F4" name="T_SPV_CLASS_FISCAL">
 <createdBy>aluno</createdBy>
 <createdTime>2019-02-28 00:47:36 UTC</createdTime>
 <ownerDesignName>Nota_Fiscal</ownerDesignName>

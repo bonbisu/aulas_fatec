@@ -25,6 +25,30 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="cd_operacao" id="585648CA-3B09-2B6A-A151-1BE09CE65A84">
+<createdBy>root</createdBy>
+<createdTime>2019-03-23 16:36:19 UTC</createdTime>
+<generatorID>B45AF04C-DA50-04C9-35EA-1C65BD4F6A8D</generatorID>
+<ownerDesignName>Nota_Fiscal</ownerDesignName>
+<engineerTo>
+<item key="1CE0FDE2-ECEA-F0A2-6D99-12C44ED23EB6" value="true"/>
+</engineerTo>
+<referedAttribute>49079385-3159-797E-0497-087C183BDA7B</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_cliente" id="CBE4E914-6025-0A97-D060-EC85B6A35839">
+<createdBy>root</createdBy>
+<createdTime>2019-03-23 16:36:45 UTC</createdTime>
+<generatorID>F9CF9970-DC4A-141A-9098-C8D2C3A93463</generatorID>
+<ownerDesignName>Nota_Fiscal</ownerDesignName>
+<engineerTo>
+<item key="1CE0FDE2-ECEA-F0A2-6D99-12C44ED23EB6" value="true"/>
+</engineerTo>
+<referedAttribute>488FD751-E7E5-EC95-8013-36F2C17498E4</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="ds_tipo" id="EADD8C5C-4AFD-3160-AC5A-C380CC9A5B94">
 <createdBy>aluno</createdBy>
 <createdTime>2019-02-28 00:47:18 UTC</createdTime>

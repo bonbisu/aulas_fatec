@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="0FBC7304-2980-D073-5779-047234A646DE" mainViewID="39CDE924-E6EB-475B-20C5-35BF55467698">
+<createdBy>aluno</createdBy>
+<createdTime>2019-02-28 00:36:58 UTC</createdTime>
+<ownerDesignName>NOTA_FISCAL</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

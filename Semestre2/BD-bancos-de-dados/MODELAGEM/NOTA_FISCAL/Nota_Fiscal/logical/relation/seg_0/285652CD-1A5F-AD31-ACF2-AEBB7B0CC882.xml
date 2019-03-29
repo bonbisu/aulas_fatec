@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_4" directorySegmentName="seg_0" id="285652CD-1A5F-AD31-ACF2-AEBB7B0CC882">
+<createdBy>root</createdBy>
+<createdTime>2019-03-23 16:40:59 UTC</createdTime>
+<ownerDesignName>Nota_Fiscal</ownerDesignName>
+<engineerTo>
+<item key="1CE0FDE2-ECEA-F0A2-6D99-12C44ED23EB6" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>DD2D2F41-0E6C-6C24-AA75-C45EE2071024</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>337693FE-3DEE-6AA6-83D0-BCB5690BE95D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

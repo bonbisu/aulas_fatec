@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CLASSIFICAR" directorySegmentName="seg_0" id="B45AF04C-DA50-04C9-35EA-1C65BD4F6A8D">
+<createdBy>root</createdBy>
+<createdTime>2019-03-23 16:36:19 UTC</createdTime>
+<ownerDesignName>Nota_Fiscal</ownerDesignName>
+<engineerTo>
+<item key="1CE0FDE2-ECEA-F0A2-6D99-12C44ED23EB6" value="true"/>
+</engineerTo>
+<sourcePk>BA1DC783-8D56-85A0-A008-750E533E68C8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E7C93163-4C99-3643-5203-3906EAA635F4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DD2D2F41-0E6C-6C24-AA75-C45EE2071024</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

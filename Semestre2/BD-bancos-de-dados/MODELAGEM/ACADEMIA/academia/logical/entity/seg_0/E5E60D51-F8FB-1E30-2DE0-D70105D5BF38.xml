@@ -2,7 +2,7 @@
 <Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E5E60D51-F8FB-1E30-2DE0-D70105D5BF38" name="T_SCA_AULA">
 <createdBy>bomber</createdBy>
 <createdTime>2019-03-09 17:07:39 UTC</createdTime>
-<ownerDesignName>ACADEMIA</ownerDesignName>
+<ownerDesignName>academia</ownerDesignName>
 <engineerTo>
 <item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
 </engineerTo>
@@ -18,17 +18,65 @@
 <Attribute name="nr_seq_aula" id="C26124E0-AF79-7D68-5B1F-691051A6F325">
 <createdBy>bomber</createdBy>
 <createdTime>2019-03-09 17:07:49 UTC</createdTime>
-<ownerDesignName>ACADEMIA</ownerDesignName>
+<ownerDesignName>academia</ownerDesignName>
 <engineerTo>
 <item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
 </engineerTo>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="nr_andar" id="D171B2D2-2A66-390B-6936-C09AD8AE7ACE">
+<createdBy>root</createdBy>
+<createdTime>2019-03-27 23:23:28 UTC</createdTime>
+<generatorID>99D6FC70-380E-160E-C5DC-C79D76481097</generatorID>
+<ownerDesignName>academia</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<referedAttribute>D215E272-36D3-8EBD-878D-9F8E22EE955D</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_seq_sala" id="02E5778E-C0DC-2831-1A32-54DC5C24C8BF">
+<createdBy>root</createdBy>
+<createdTime>2019-03-27 23:23:28 UTC</createdTime>
+<generatorID>99D6FC70-380E-160E-C5DC-C79D76481097</generatorID>
+<ownerDesignName>academia</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<referedAttribute>4BDD83E1-9B12-60B0-3923-BD28E5F5DABD</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_modalidade" id="CA7A2688-7F1E-C59D-D92C-864AD637C4B4">
+<createdBy>root</createdBy>
+<createdTime>2019-03-27 23:26:30 UTC</createdTime>
+<generatorID>5AA0AF6F-718E-30A7-A34A-30EFAC591D22</generatorID>
+<ownerDesignName>academia</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<referedAttribute>B59B8C53-4E35-44AD-A032-888035A5D2EC</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_matricula" id="9E672EAA-E098-A515-6AE7-9E312D16F1E2">
+<createdBy>root</createdBy>
+<createdTime>2019-03-27 23:29:04 UTC</createdTime>
+<generatorID>C885B97E-9700-CD17-7349-BE4F88B6C748</generatorID>
+<ownerDesignName>academia</ownerDesignName>
+<engineerTo>
+<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
+</engineerTo>
+<referedAttribute>FE1521D7-9777-1450-45A8-DA0902F7A703</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="vl_duracao" id="5A051192-8CAA-F3DB-1B5E-87430F19A0FF">
 <createdBy>bomber</createdBy>
 <createdTime>2019-03-09 17:07:58 UTC</createdTime>
-<ownerDesignName>ACADEMIA</ownerDesignName>
+<ownerDesignName>academia</ownerDesignName>
 <engineerTo>
 <item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
 </engineerTo>
@@ -38,7 +86,7 @@
 <Attribute name="ds_dificuldade" id="93C58525-5AE5-8446-AD74-B7410EBAF973">
 <createdBy>bomber</createdBy>
 <createdTime>2019-03-09 17:08:03 UTC</createdTime>
-<ownerDesignName>ACADEMIA</ownerDesignName>
+<ownerDesignName>academia</ownerDesignName>
 <engineerTo>
 <item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
 </engineerTo>
@@ -48,17 +96,7 @@
 <Attribute name="dt_hr_inicio" id="5ECCAD41-465F-50F0-49F0-BF3BF765EC68">
 <createdBy>bomber</createdBy>
 <createdTime>2019-03-09 17:08:11 UTC</createdTime>
-<ownerDesignName>ACADEMIA</ownerDesignName>
-<engineerTo>
-<item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="nr_sala" id="D30A0051-682A-1279-3503-107D536965D5">
-<createdBy>bomber</createdBy>
-<createdTime>2019-03-09 17:08:22 UTC</createdTime>
-<ownerDesignName>ACADEMIA</ownerDesignName>
+<ownerDesignName>academia</ownerDesignName>
 <engineerTo>
 <item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
 </engineerTo>
@@ -70,7 +108,7 @@
 <identifier id="1E6C1CBA-433D-9CFE-EC4F-18A473DF202F" name="T_SCA_AULA PK">
 <createdBy>bomber</createdBy>
 <createdTime>2019-03-09 17:07:56 UTC</createdTime>
-<ownerDesignName>ACADEMIA</ownerDesignName>
+<ownerDesignName>academia</ownerDesignName>
 <engineerTo>
 <item key="B5EB520E-5A3A-E0AB-DEDF-2EF0A68B3E7B" value="true"/>
 </engineerTo>

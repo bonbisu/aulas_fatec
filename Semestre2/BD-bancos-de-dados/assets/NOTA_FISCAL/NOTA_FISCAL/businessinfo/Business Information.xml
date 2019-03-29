@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="5AFA7E04-F905-65F2-4166-0291A1F02EAA">
+<createdBy>aluno</createdBy>
+<createdTime>2019-02-28 00:36:58 UTC</createdTime>
+<ownerDesignName>NOTA_FISCAL</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

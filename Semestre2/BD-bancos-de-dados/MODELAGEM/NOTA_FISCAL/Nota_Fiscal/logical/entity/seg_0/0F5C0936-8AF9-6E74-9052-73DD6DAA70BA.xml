@@ -15,13 +15,27 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="cd_nota" id="C1DA7115-0161-9C11-1282-78C36DE6D1D8">
-<createdBy>aluno</createdBy>
-<createdTime>2019-02-28 00:48:05 UTC</createdTime>
+<Attribute name="nr_nota" id="07B05DB4-04A8-CDB8-B08F-C220E6177A05">
+<createdBy>root</createdBy>
+<createdTime>2019-03-23 16:42:32 UTC</createdTime>
+<generatorID>D96A5C3A-4915-968C-9A62-735E8F674F70</generatorID>
 <ownerDesignName>Nota_Fiscal</ownerDesignName>
 <engineerTo>
 <item key="1CE0FDE2-ECEA-F0A2-6D99-12C44ED23EB6" value="true"/>
 </engineerTo>
+<referedAttribute>FC63FA27-BFBE-A1B7-E949-880F2EF53EFF</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_produto" id="DA2A322D-FEAF-DAE3-016D-16DEE7CC26F7">
+<createdBy>root</createdBy>
+<createdTime>2019-03-23 17:15:50 UTC</createdTime>
+<generatorID>46BDAA41-0F00-463E-B2D4-3949ABF0E4F2</generatorID>
+<ownerDesignName>Nota_Fiscal</ownerDesignName>
+<engineerTo>
+<item key="1CE0FDE2-ECEA-F0A2-6D99-12C44ED23EB6" value="true"/>
+</engineerTo>
+<referedAttribute>5919ABC6-FCF5-2FB5-0AC8-AD717B53625C</referedAttribute>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
@@ -66,7 +80,8 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>C1DA7115-0161-9C11-1282-78C36DE6D1D8</attributeRef>
+<attributeRef>07B05DB4-04A8-CDB8-B08F-C220E6177A05</attributeRef>
+<attributeRef>DA2A322D-FEAF-DAE3-016D-16DEE7CC26F7</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

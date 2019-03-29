@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="123102D2-A240-D645-3849-973BDAF4C5A9" name="T_SPV_CLIENTE" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="ED4CC282-14F1-CBCA-B871-2E822A6985B1" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="A26730B3-FBCB-D41F-F73D-A6ED5F4866CB" name="T_SPV_ITEM_NF" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="ED4CC282-14F1-CBCA-B871-2E822A6985B1" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="FFF481B5-1683-1DD8-0E48-7B8301AF9F8A" name="T_SPV_NOTA_FISCAL" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="ED4CC282-14F1-CBCA-B871-2E822A6985B1" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="0BE97A1D-4C37-37EB-05AB-FCA1E1CD622F" name="T_SPV_OPERACAO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="ED4CC282-14F1-CBCA-B871-2E822A6985B1" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="3CE60343-8FD0-A815-AF26-A5B54840FB5A" name="T_SPV_PRODUTO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="ED4CC282-14F1-CBCA-B871-2E822A6985B1" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="57BA17BC-DE2D-6205-F899-CE6E0B61D71B" name="T_SPV_UNID_MEDIDA" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="ED4CC282-14F1-CBCA-B871-2E822A6985B1" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>
