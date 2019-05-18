@@ -1,0 +1,42 @@
+Fernando Henrique Borges de Andrade Costa
+
+Anote as capacidades e IOPS para R10 e R5
+
+8 HDs 180 GB 
+- RAID 10	-> 643 GB
+- RAID 5	-> 1.125 GB
+
+5 HDs 320 GB 
+- RAID 10	-> 572 GB
+- RAID 5	-> 1.143 GB
+
+4 HDs 720 GB 
+- RAID 10	-> 1.286 GB
+- RAID 5	-> 1.929 GB
+
+IOPS
+8 HDs 180 GB
+- RAID 10	-> 383
+- RAID 5 	-> 213
+
+5 HDs 320 GB 
+- RAID 10	-> 240
+- RAID 5	-> 133
+	
+4 HDs 720 GB 
+- RAID 10	-> 192
+- RAID 5	-> 106
+
+Para uma aplicação que demanda 700 IOPS quantos HDs são necessários?
+
+HDs 180 GB
+RAID 10		-> 15 discos
+RAID 5 		-> 27 discos
+
+HDs 320 GB
+RAID 10 	-> 15 discos
+RAID 5 		-> 27 discos
+
+HDs 720 GB
+RAID 10 	-> 15 discos
+RAID 5 		-> 27 discos
